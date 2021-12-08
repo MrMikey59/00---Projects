@@ -1,7 +1,9 @@
-| Description | Display | HTML Escapes |
-| ----- | ----- | ----- |
-| Ampersand | & | '&amp;' |
-| Less Than (Left Angle Bracket) | < | '&lt;' |
-| Greater Than (Right Angle Bracke t| > | '&gt;' |
-| Single Quote | ' | '&quot;' '&#39;'|
+| Description | Display | HTML Escapes | Inline |  
+| ----- | ----- | ----- | ----- | 
+| Ampersand | & | ```&amp;``` | |  
+| Carraige Return | | | \r |  
+| Greater Than (Right Angle Bracket| > | ```&gt;``` | |  
+| Less Than (Left Angle Bracket) | < | ```&lt;``` | |  
+| New Line |  |  | \n |
+| Single Quote | ' | ```&quot;``` ```&#39;```| |  
 
