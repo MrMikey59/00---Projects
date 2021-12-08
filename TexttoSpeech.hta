@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<TITLE>TTS Sample</title>
+<HTA:application id="frmMain" singleInstance="yes" 
+showInTaskbar="yes" contextmenu="no" maximizeButton="no" minimizeButton="no" border="thin"/>
+</HEAD>
+<SCRIPT language="VBScript">
+  Dim tts
+  Set tts = Nothing
+  Set tts = CreateObject("Sapi.SpVoice")
+  Set tts.Voice = tts.GetVoices.Item(0)
+  Sub Window_OnLoad
+    self.reSizeTo 350,348
+  End Sub
+  Sub Speak()
+    tts.Speak SpeakText.value, 1
+  End Sub
+</SCRIPT>
+<BODY scroll="no" style="margin:0px">
+<INPUT type="button" value="Speak" onClick="Speak()"/>
+<TEXTAREA id="SpeakText" cols="40" rows="18" >Make my day!</textarea>
+</BODY>
+</HTML>
