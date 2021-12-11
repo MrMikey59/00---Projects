@@ -1,3 +1,5 @@
+# Special Characters
+
 | Description | Display | HTML Escapes | Inline |  
 | ----- | ----- | ----- | ----- | 
 | Ampersand | & | ```&amp;``` | |  
