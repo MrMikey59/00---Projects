@@ -1,5 +1,14 @@
 # String Object
 
+#### String Size Control
+To force a string to be fixed at 50 characters in length, use this :
+```vbscript
+Dim temp as String * 50
+```
+**NOTE:** 
+- If your string is less than 50, it is padded with spaces. 
+- If it is greater than 50 characters, the excess characters are truncated and lost.
+
 ## Common String Characters
 
 | Description | Example Code |  
@@ -13,4 +22,19 @@
 | Line Feed | `var LF = "\n";` |  
 | Quotes | `Const dblQuote = """"` <br> `Const sngQuote = ''''` <br> `var SQUOTE = "\'";` <br> `var DQUOTE = '\"';` |  
 | Tab | `var TAB = "\t";` |  
+
+
+## Some UDF String Functions
+| Function | Example Code | 
+| ---- | ---- | 
+| Double Quote a String | ``Function DblQuote(Str)`` <br> `` DblQuote = Chr(34) & Str & Chr(34)`` <br> ``End Function `` | 
+| Single Quote a String | ``function AddQuotes( str ){`` <br> `` return '"' + str.replace( /\"/g, "&quot;" ) + '"';`` <br> ``}`` | 
+| Is Alphabetic | ``function isAlpha(ch){`` <br> ``// returns true if ch is a letter`` <br> `` if ( (ch < "a" \|\| "z" < ch) && (ch < "A" \|\| "Z" < ch) )`` <br> `` return false;`` <br> `` else`` <br> ``return true;`` <br> ``}`` | 
+| Is Alpha-Numeric | ``function isAlphaNumeric(i) {`` <br> `` return ((i >= '0' && i <= '9') || (i >= 'a' && i <= 'z') || (i >= 'A' && i <= 'Z'));`` <br> ``}`` | 
+| Is Alpha-Numeric (Special) | ``function isAlphaNumericSpecial(i) { `` <br> `` return ((i >= '0' && i <= '9') \|\| (i >= 'a' && i <= 'z') \|\| (i >= 'A' && i <= 'Z') \|\| (i == '!') `` <br> `` \|\| (i == '?') \|\| (i == '.') \|\| (i == ' ') \|\| (i == '"') \|\| (i == '\'') \|\| (i == '-'));`` <br> ``}`` | 
+| Is Empty | ``function isEmpty(s){`` <br> `` return ((s == null) \|\| (s.length == 0))`` <br> ``}`` | 
+| Is a Letter | ``function isLetter(i){ `` <br> `` return ((i >= 'a' && i <= 'z') \|\| (i >= 'A' && i <= 'Z'));`` <br> ``}`` | 
+| Is a Phone Number <br> Requires: <br> isEmpty <br> isInteger <br> numAllowed | ``function isPhoneNum (s){`` <br> `` if (isEmpty(s)) `` <br> `` if (isPhoneNum.arguments.length == 1) return false;`` <br> `` else return (isPhoneNum.arguments[1] == true);`` <br> `` return (isInteger(s) && s.length == numAllowed)`` <br> ``}`` |
+
+
 
