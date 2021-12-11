@@ -3,6 +3,10 @@
 ## Education
 - [National Museum of the American Indian](https://americanindian.si.edu)  
 
+## Windows
+- [.NET Framework Download](https://www.microsoft.com/net/download/framework)
+- [DotNet Tester](https://smallestdotnet.com/)
+
 ### World Wide Web (W3)
 - [HTML 4](http://www.w3.org/TR/html4)
 - [XHTML 1.0](http://www.w3.org/TR/xhtml1/)
