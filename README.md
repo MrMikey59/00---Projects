@@ -22,11 +22,11 @@ Other Code Storage Sites:
 # Contents
 
 ### Information Resources
-- [TABLES]( https://github.com/MrMikey59/MikeMyers59/tree/main/Tables) 
+- [TABLES]( https://github.com/MrMikey59/00---Projects/tree/main/Tables) 
 
 ### Programming 
-- [DOS](https://github.com/MrMikey59/MikeMyers59/tree/main/DOS)
-- [HTA](https://github.com/MrMikey59/MikeMyers59/tree/main/HTA)
-- [JS](https://github.com/MrMikey59/MikeMyers59/tree/main/JS)
-- [VBS](https://github.com/MrMikey59/MikeMyers59/tree/main/VBS)
+- [DOS](https://github.com/MrMikey59/00---Projects/tree/master/DOS)
+- [HTA](https://github.com/MrMikey59/00---Projects/tree/main/HTA)
+- [JS](https://github.com/MrMikey59/00---Projects/tree/main/JS)
+- [VBS](https://github.com/MrMikey59/00---Projects/tree/main/VBS)
 
