@@ -19,6 +19,9 @@
 | ---- | ---- | ---- |
 |  |  |  |
 
+Justification:
+| Left   | Center   | Right   |
+| :---   |  :----:  |    ---: |
 
 
 # Markdown Cheat Sheet
