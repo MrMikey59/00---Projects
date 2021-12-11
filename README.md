@@ -22,11 +22,13 @@ Other Code Storage Sites:
 # Contents
 
 ### Information Resources
+- [Objects](https://github.com/MrMikey59/00---Projects/tree/master/Objects)
 - [TABLES]( https://github.com/MrMikey59/00---Projects/tree/master/Tables) 
 
 ### Programming 
 - [DOS](https://github.com/MrMikey59/00---Projects/tree/master/DOS)
 - [HTA](https://github.com/MrMikey59/00---Projects/tree/master/HTA)
+- [HTML](https://github.com/MrMikey59/00---Projects/tree/master/HTML)
 - [JS](https://github.com/MrMikey59/00---Projects/tree/master/JS)
 - [VBS](https://github.com/MrMikey59/00---Projects/tree/master/VBS)
 
