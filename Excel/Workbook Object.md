@@ -17,4 +17,5 @@ This object provides access to all workbooks within the open application.
 | ---- | ---- | 
 | close | Close the current Workbook <br> `ThisWorkbook.Close False` | 
 | saveas | `.SaveAs Filename:=<Name>, FileFormat:=xlTemplate` |
+| Worksheets() | the Worksheet object list |
 
