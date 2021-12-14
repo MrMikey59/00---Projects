@@ -5,8 +5,9 @@ This object provides access to the application within the open window.
 ## Common Constants, Declaration & Variables
 | CDV Name | Description |  
 | --- | --- |  
-| Save Filter | `Const Save_Filter = "Templates,*.xlt" ` | 
-| Save Title | `Const Save_Title = "Save Template"` | 
+| Save_Filter | `Const Save_Filter = "Templates,*.xlt" ` | 
+| Save_Title | `Const Save_Title = "Save Template"` | 
+| objXL | |
 
 ## Properties
 
