@@ -4,18 +4,18 @@
 | ----- | ----- | ----- | ----- | ----- | 
 | Ampersand | & | ```&amp;``` | |  ----- | 
 | Backslash | ----- | ----- | \\\\ | ----- | 
-| Backspace | ----- | ----- | \b | ----- | 
+| Backspace | ----- | ----- | \\b | ----- | 
 | Carraige Return | | | \r | U+000D | 
 | Carraige Return/Line Feed | | | \r\n | | 
-| Form Feed | ----- | ----- | \f | U+000C | 
+| Form Feed | ----- | ----- | \\f | U+000C | 
 | Greater Than (Right Angle Bracket| > | ```&gt;``` | |  ----- | 
 | Less Than (Left Angle Bracket) | < | ```&lt;``` | |  ----- | 
 | New Line |  |  | \n | U+000A | 
 | No Backspace | ----- | &nbsp; | ----- | ----- | 
-| Quote, Single | ' | ```&quot;``` ```&#39;```| \' |  ----- | 
-| Quote, Double | " | | \" |  ----- | 
+| Quote, Single | ' | ```&quot;``` ```&#39;```| \\' |  ----- | 
+| Quote, Double | " | | \\" |  ----- | 
 | Space | ----- | ----- | ----- | U+0020 | 
-| Tab | ----- | &tab; | \t | U+0009 | 
+| Tab | ----- | &tab; | \\t | U+0009 | 
 | Tab, Line | ----- | ----- | ----- | U+000B | 
 
 ## UTF-8
