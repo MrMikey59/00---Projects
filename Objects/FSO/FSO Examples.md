@@ -2,6 +2,45 @@
 
 ## Basics
 
+#### Create a File
+Requires:
+
+- objFSO
+
+```vbscript
+Sub CreateAfile
+ Dim objFile
+ Set objFile = objFSO.CreateTextFile(<FilePathName>, True)
+ <VBCommands>
+ objFile.Close
+ Set objFile = Nothing
+End Sub
+```
+
+#### Create a File Name Based on Date & Time
+```vbscript
+Function CreateFileName(BaseFileName as String, _
+     nthFile As Integer) As String
+ Dim path As String, y As String, _
+   m As String, d As String
+ path = "C:\"
+ y = Year(Date)
+ m = Month(Date)
+ d = Day(Date)
+ CreateFileName = path & BaseFileName & _
+          y & "-" & m & "-" & d & _
+          " - " & CStr(nthFile)
+End Function
+```
+A Calling Example:
+```vbscript
+Dim nthFileOfTheDay As Integer, fName As String
+For nthFileOfTheDay = 1 To 10
+ fName = CreateFileName(nthFileOfTheDay)
+ <VBCommands> 
+Next nthFileOfTheDay
+```
+
 #### Load a File
 Requires:
 
@@ -46,6 +85,20 @@ Function GetVersion(filepath)
    GetVersion = Null
  End If
 End Function
+```
+
+#### Use a File Set Array
+```vbscript
+Dim FileSet as Array
+ FileSet = Array("wcncsvc.dll", "wcnapi.dll", "fdwcn.dll", "wcneapauthproxy.dll", "wcneappeerproxy.dll", "wcnwiz.dll", "wcnnetsh.dll", "wczdlg.dll")
+ Dim file, fileProp
+ For Each file in FileSet
+   <VBCommands>
+ Next file
+ Set fileProp = objWMIService.ExecQuery (strQuery)
+ For Each objFile in fileProp
+   <VBCommands>
+ Next
 ```
 
 ## Change Attributes of Files
@@ -116,6 +169,18 @@ Dim configFolder
 configFolder = "config"
 if Not objFSO.FolderExists(configFolder) Then
   objFSO.CreateFolder configFolder
+End If
+```
+
+## Path Manipulations
+
+#### Test Path String 
+```vbscript
+Dim YourFile as String
+If Right(filExample.Path,1) = "\" Then
+ YourFile = filExample.Path + filExample.FileName
+Else
+ YourFile = filExample.Path + "\" + filExample.FileName
 End If
 ```
 
