@@ -7,6 +7,9 @@ This object provides access to all workbooks within the open application.
 ## Properties
 | Property | Description |
 | ---- | ---- | 
+| ActiveChartt | active chart of a window/workbook/application |
+| ActiveDialog | active form of a window/workbook/application |
+| ActiveSheet | active sheet of a window/workbook/application |
 | ActiveWorkbook | the currently active/selected workbook | 
 | FullName | | 
 | Path | |
