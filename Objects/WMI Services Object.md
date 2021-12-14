@@ -2,6 +2,36 @@
 
 # Example Code
 
+### Get a Battery Report
+Requires:
+
+- objWMIServices
+
+```vbscript
+Sub GetBatteryReport(outputFile)
+' Assumes outputFile is open for writing/appending, objWMIService is open
+  On Error Resume Next
+  Dim colItems as Object, objItem as Object
+  outputFile.WriteLine()
+  outputFile.WriteLine("[Power Information]")
+  outputFile.WriteLine()
+  Set colItems = objWMIService.ExecQuery("Select * from Win32_Battery")
+  if colItems.Count = 0 Then
+    outputFile.WriteLine("It is a Desktop running on AC")
+  Else
+  For Each objItem in colItems
+    if objItem.Availability = 2 Then
+      outputFile.WriteLine("Machine is running on AC Adapter")
+    Else
+      if objItem.Availability = 3 Then
+        outputFile.WriteLine("Machine is running on Battery")
+      End If
+    End If
+  Next
+  End If
+End Sub
+```
+
 ### Get Miracast Information
 Requires:
 
