@@ -12,10 +12,12 @@ This object provides access to a worksheet within the current Workbook.
 | Property | Description |
 | ---- | ---- | 
 | SelectedSheets | access to groups of sheets (with multiple selection) |
+| Visible | Hide/Unhide  a Worksheet <br> `Worksheets(<WorksheetName>).Visible = { False \| True }` |
 
 ## Methods
 | Method | Description |
 | ---- | ---- | 
+| activate | Activate (Go to) a Worksheet <br> `Worksheets(<WorksheetName>).Activate` |
 | add | Add a new worksheet <br> `.add [Before:=Worksheets(<Index>)` |
 | Cells | Access the cells object list |
 | Columns | Access the Columns object list|
