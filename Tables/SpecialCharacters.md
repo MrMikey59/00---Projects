@@ -3,7 +3,7 @@
 | Description | Display | HTML Escapes | Inline <br> Escape Code | UTF-8 |
 | ----- | ----- | ----- | ----- | ----- | 
 | Ampersand | & | ```&amp;``` | |  ----- | 
-| Backslash | ----- | ----- | \\ | ----- | 
+| Backslash | ----- | ----- | \\\\ | ----- | 
 | Backspace | ----- | ----- | \b | ----- | 
 | Carraige Return | | | \r | U+000D | 
 | Carraige Return/Line Feed | | | \r\n | | 
