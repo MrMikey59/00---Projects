@@ -3,6 +3,9 @@
 This object provides access to all workbooks within the open application. 
 
 ## Common Constants, Declaration & Variables
+| CDV Name | Description |
+| --- | --- |  
+| objXLWb | `dim objXLWb, excelVal` <br> `set objXLWb = objXL.Workbooks.Open(strCurDir & <FileName>)` |
 
 ## Properties
 | Property | Description |
