@@ -2,7 +2,7 @@
 
 | Term | Description |  
 | ---- | ---- |  
-| AMA | Against Medical Advice |
+| Block Scoping | create a new scope between a pair of braces {} | 
 |Class |a user defined type of data; refers to a set of related objects that share common characteristics. Classes, and the ability to create new classes, are what make object-oriented programming a powerful and flexible programming model.|
 |Field|variables that belong to an object or class (AKA Properties); two types of fields are: <br>* those that belong to each instance/object of the class <br> * those that belong to the class itself. | 
 |Methods|Functions associated to a class and used on an object|
