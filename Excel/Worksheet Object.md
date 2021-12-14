@@ -17,4 +17,8 @@ This object provides access to a worksheet within the current Workbook.
 | Method | Description |
 | ---- | ---- | 
 | add | Add a new worksheet <br> `.add [Before:=Worksheets(<Index>)` |
+| Cells | Access the cells object list |
+| Columns | Access the Columns object list|
+| Rows | Access the Rows object list |
+| Shapes | Access the Shapes object list |
 
