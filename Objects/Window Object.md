@@ -4,6 +4,7 @@
 | CDV Name | Description |
 | ---| --- | 
 | WinHeight | `var WinHeight = 300` |
+| WinSettings | `WinSettings = ('resizable=no, scrollbars=no, width=550, height=158, toolbar=no')` | 
 | WinWidth | `var WinWidth = 400` | 
 
 ## Properties
@@ -31,6 +32,14 @@ Sub CenterWindow(intWidth, intHeight)
 End Sub
 ```
 
+#### Open a Popup Window
+```javacript
+'Pop-up Window Script
+function popUp(pPage) {
+  window.open(pPage,'popUp', WinSettings);
+}
+```
+
 #### Relocate a Window
 ```vbscript
 Sub RelocateWindow (winHorizontal, winVertical)
@@ -45,7 +54,7 @@ Sub ResizeWindow (winWidth, winHeight)
 End Sub
 ```
 
-#### Resizr an HTA Window
+#### Resize an HTA Window
 ```vbscript
 function ResizeWindow (w,h) {
 // known bug in mshtml; try/catch fixes
