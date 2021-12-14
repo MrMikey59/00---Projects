@@ -9,7 +9,7 @@ This object provides access to all workbooks within the open application.
 | ---- | ---- | 
 | ActiveCell | active cell of a window/workbook/application |
 | ActiveChart | active chart of a window/workbook/application |
-| ActiveDialog | active form of a window/workbook/application <br> `for each sh in Thisworkbook.dialogSheets` <br> `sh.visible = xlSheetVisible` <br> `Next` |
+| ActiveDialog | active form of a window/workbook/application <br> `for each sh in Thisworkbook.dialogSheets` <br> `sh.visible = xlSheetVisible` <br> `Next` <br> Dialogs don't have their own modules. The associated code is in a standard code module. |
 | ActiveSheet | active sheet of a window/workbook/application |
 | ActiveWindow | active Window of a window/workbook/application |
 | ActiveWorkbook | the currently active/selected workbook | 
