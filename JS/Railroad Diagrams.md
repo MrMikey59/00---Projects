@@ -17,3 +17,12 @@ $(document).ready(function() {
 });
 ```
 
+**onLoad Event as Attribute to HTML Element**
+```javascript
+onLoad="window.captureEvents(Event.MOUSEMOVE | Event.MOUSEDOWN | Event.CLICK | Event.KEYPRESS | Event.RESIZE)"
+```
+
+**onUnload Event as Attribute to HTML Element**
+```javascript
+onUnload="window.releaseEvents(Event.MOUSEMOVE | Event.MOUSEDOWN |Event.CLICK | Event.KEYPRESS | Event.RESIZE)"
+```
