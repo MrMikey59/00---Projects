@@ -2,9 +2,12 @@
 
 This folder contains notes, snippets and examples related to Excel.
 
+- Object Reference (2010): https://msdn.microsoft.com/en-us/library/office/ff194068(v=office.14).aspx 
+
 ![Excel Object Heirarchy Chart](https://github.com/MrMikey59/00---Projects/blob/master/Excel/Excel%20Object%20Chart.jpg)
 
 The image above illustrates only a very small portion of Excel’s VBA object hierarchy.  
+
 Common Object Collections
 
 -	Workbooks, which is a collection of all [the Excel workbooks that are currently open](https://powerspreadsheets.com/vba-open-workbook/).  
