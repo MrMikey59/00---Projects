@@ -1,6 +1,82 @@
 # WMI Services Object
 
+#### WMI Service
+```vbscript
+Dim objWMIService
+Set objWMIService = GetObject("winmgmts:\\.\root\cimv2")
+Set objWMIService = Nothing
+```
+
+#### Processes Object
+Requires:
+
+- objWMIService
+
+```vbscript
+Dim colProcesses, objProcess
+Set colProcesses = objWMIService.ExecQuery("Select * from Win32_Process")
+  For Each objProcess In colProcesses
+    objProcess.Name
+  Next
+Set colProcesses = Nothing
+```
+
+#### Process Object
+```vbscript
+Dim objProcess
+Set objProcess = GetObject("winmgmts://./root/novadigm:NVD_Agent")
+Set objProcess = Nothing
+```
+
+#### Method Object
+Requires:
+
+- objProcess
+
+```vbscript
+Dim objMethod
+Set objMethod = objProcess.Methods_ ("GetLocation")
+Set objMethod = Nothing
+```
+
+#### Parameters Object
+Requires:
+
+- objMethod
+- objProcess
+
+```vbscript
+Dim objParameters
+Set objParameters = objMethod.inParameters.SpawnInstance_()
+Set objParameters = objProcess.ExecMethod_ ("GetLocation", inParameters)
+Set objParameters = Nothing
+.Location
+.Path
+```
+
+#### Service Object
+```vbscript
+Dim objWMIService
+Set objWMIService = GetObject("winmgmts:\\.\root\cimv2")
+  objWMIService.ExecQuery(<SQLString>,,16)
+Set objWMIService = Nothing
+```
+
 # Example Code
+
+### Exclude GUID
+```vbscript
+Function GuidExcludes(ByVal strName)
+'* Input(s): String to exclude        *
+'* Output(s): Boolean if key term is found in *
+'* the string                 *
+ If InStr(strName, "Auto Updater") <> 0 Then
+  GuidExcludes = True
+ Else
+  GuidExcludes = False
+ End If
+End Function
+```
 
 ### Get a Battery Report
 Requires:
