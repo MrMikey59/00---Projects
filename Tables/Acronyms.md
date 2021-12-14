@@ -2,6 +2,7 @@
 
 | Acronym | Description | 
 | ---- | ---- | 
+|AMA| Against Medical Advice |
 |CRL|Certificate Revocation List|
 |CTL|Certificate Trust List|
 |CWIS|Campus-Wide Information System|
