@@ -12,7 +12,7 @@ This object provides access to a worksheet within the current Workbook.
 | Property | Description |
 | ---- | ---- | 
 | SelectedSheets | access to groups of sheets (with multiple selection) |
-| Visible | Hide/Unhide  a Worksheet <br> `Worksheets(<WorksheetName>).Visible = { False \| True }` |
+| Visible | Hide/Unhide  a Worksheet <br> `Worksheets(<WorksheetName>).Visible = { False \| True \| xlHidden \| xlVeryHidden }` |
 
 ## Methods
 | Method | Description |
