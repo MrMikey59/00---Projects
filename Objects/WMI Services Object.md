@@ -340,3 +340,22 @@ Function SearchInstalls(ByVal strHive, ByVal strKeyPath, ByVal strVal, ByVal str
  Next
 End Function
 ```
+
+### Uninstall a GUID
+Requires:
+
+- objShell
+- LogPath
+
+```vbscript
+Function UninstallGuid(ByVal sGuid)
+ Dim sRC, guidUninst
+ guidUninst = "msiexec /x " & sGuid & " /q REBOOT=ReallySuppress /l* " & Chr(34) & LogPath & sGuid & "_Uninstall.log" & Chr(34)
+ sRC = objShell.Run(guidUninst, 1, True)
+ If sRC = 0 Or sRC = 3010 Or sRC = 1605 Then
+  UninstallGuid = sRC
+ Else
+  WScript.Quit(sRC)
+ End If
+End Function
+```
