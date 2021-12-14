@@ -9,6 +9,7 @@
 |HTTP|HyperText Transfer Protocol|
 |METS|Metadata Coding and Transmission Standard|
 |MODS|Metadata Object Description Schema|
+| NaN | Not a Number |  
 |PWA|Progressive Web Application|
 |RWD|Responsive Web Design|
 |SAE|Simultaneous Authentication of Equals|
