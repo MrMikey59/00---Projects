@@ -11,11 +11,16 @@ This object provides access to all workbooks within the open application.
 ## Properties
 | Property | Description |
 | ---- | ---- | 
-| FormulaR1C1 | `ActiveCell.FormulaR1C1 = "Total"` | 
+| FormulaR1C1 | `ActiveCell.FormulaR1C1 = "Total"` <br> `Selection.FormulaR1C1 = "=SUM(R[-9]C:R[-1] C)"` | 
 | height | height of the object | 
 | Interior | `ActiveCell.Interior.ColorIndex = 6` |
 
 ## Methods
 | Method | Description |
 | ---- | ---- |
-| Select | select the designated cell/range <br> `Range(<RangeIndex>).Select` | |
+| Autofill | `Selection.AutoFill Destination:=Range("E11:G11"), Type:=xlFillDefault` |
+| Columns() | |
+| Rows() | | 
+| Select | Select the designated cell/range <br> `Range(<RangeIndex>).Select` <BR> Select from current selection to end of column: <br> `Selection.End(xlDown).Select` |
+
+  
