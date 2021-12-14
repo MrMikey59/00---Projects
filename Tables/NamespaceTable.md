@@ -20,5 +20,5 @@
 | xmlns:x | "urn:schemas-microsoft-com:office:excel" |
 | xmlns:xs | "http://www.w3.org/2001/XMLSchema"  |
 | xmlns:xsd | "http://www.w3.org/2001/XMLSchema"  |
-| xmlns:xsi | "http://www.w3.org/2001/XMLSchema-instance" |
-
+| xmlns:xsi | "http://www.w3.org/2001/XMLSchema-instance" |  
+| xs | XSD schema (http://www.w3.org/2001/XMLSchema) |  
