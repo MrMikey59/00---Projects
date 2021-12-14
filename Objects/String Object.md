@@ -37,4 +37,34 @@ Dim temp as String * 50
 | Is a Phone Number <br> Requires: <br> isEmpty <br> isInteger <br> numAllowed | ``function isPhoneNum (s){`` <br> `` if (isEmpty(s)) `` <br> `` if (isPhoneNum.arguments.length == 1) return false;`` <br> `` else return (isPhoneNum.arguments[1] == true);`` <br> `` return (isInteger(s) && s.length == numAllowed)`` <br> ``}`` |
 
 
+#### Reverse a String
+```vbscript
+Function ReverseString(strText As String) As String
+ Dim intLength As Integer, i As Integer, _
+   strReversedText as String
+ strReversedText = ""
+ intLength = Len(strText)
+ For i = 0 To intLength – 1
+  strReversedText = strReversedText & Mid(text, (intLength - i), 1)
+ Next i
+ ReverseString = strReversedText
+End Function
+```
+
+#### Unsplit a String
+```vbscript
+Sub UnsplitNames()
+' This routine assumes the string is a name and 
+' that it is in “Last, First” name order. Everything 
+' after the comma becomes the First Name.
+ Dim strFullName As String, _
+   intCommaPosition As Integer, i As Integer
+ For i = 2 To 7
+  strFullName = Cells(i, 1).Value
+  intCommaPosition = InStr(strFullName, ",") 
+  Cells(i, 2).Value = Mid(strFullName, intCommaPosition + 2)
+  Cells(i, 3).Value = Left(strFullName, intCommaPosition - 1)
+ Next i
+End Sub
+```
 
