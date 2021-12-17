@@ -47,7 +47,7 @@ The Hide Access Window VBE Script ![Hide Access Window Script](https://github.co
 This is a BLANK Form.  
 Property Settings:  
 ![frmStart Properties 1](https://github.com/MrMikey59/00---Projects/blob/master/Access/frmStart%20Properties%201.png)  
-![frmStart Properties 2](https://github.com/MrMikey59/00---Projects/blob/master/Access/frmStart%20Properties%202.pngg)
+![frmStart Properties 2](https://github.com/MrMikey59/00---Projects/blob/master/Access/frmStart%20Properties%202.png)
 
 ###### frmMain  
 The menu/start form  
