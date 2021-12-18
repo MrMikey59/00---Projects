@@ -1,5 +1,11 @@
 # Processes used within GitHub Website
 
+### Sitewide Keyboard Shortcuts
+![Sitewide Shortcuts](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/GitHub%20Sitewide%20Shortcuts.png)
+
+### Repository Shortcuts
+![Repository Shortcuts](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/GitHub%20Repository%20Shortcuts.png)
+
 ### Create a Folder in GitHub
 1. Click on Create new File.
 2. Enter the folder name that you want, then press /.
