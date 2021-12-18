@@ -2,7 +2,7 @@
 
 ## Books Example
 
-#### Books XML File ( See [Books.xml](https://github.com/MikeMyers59/MikeMyers59/blob/main/XML/Books/Books.xml) )  
+#### Books XML File ( See [Books.xml](https://github.com/MrMikey59/00---Projects/blob/master/XML/Books/Books.xml) )  
 ```xml
   <?xml version="1.0"?>  
   <books>  
@@ -79,7 +79,7 @@ Results in `Records in set: 2` being displayed in the message box.
   MsgBox txtOutput
 ```
 Results Displayed:  
-  ![Books in Message](https://github.com/MikeMyers59/MikeMyers59/blob/main/XML/Books/Book%20List%20Message.png)
+  ![Books in Message](https://github.com/MrMikey59/00---Projects/blob/master/XML/Books/Book%20List%20Message.png)
 
 ### Display the Books inside an HTA/HTML Document
 ```vbscript
@@ -115,13 +115,13 @@ Results Displayed:
   </p>
 ```
 Results display in the browser as:  
-  ![Books Displayed in an HTA or HTML Document](https://github.com/MikeMyers59/MikeMyers59/blob/main/XML/Books/Book%20List%20in%20HTA%20Document.png)  
+  ![Books Displayed in an HTA or HTML Document](https://github.com/MrMikey59/00---Projects/blob/master/XML/Books/Book%20List%20in%20HTA%20Document.png)  
 
-This code is available in the [Books.hta](https://github.com/MikeMyers59/MikeMyers59/blob/main/XML/Books/Books.hta) for you to try.
+This code is available in the [Books.hta](https://github.com/MrMikey59/00---Projects/blob/master/XML/Books/Books.hta) for you to try.
 
 ## Parts Example
   
-#### The [Part.xml](https://github.com/MikeMyers59/MikeMyers59/blob/main/XML/Parts/Parts.xml) File (Excerpt shown)
+#### The [Part.xml](https://github.com/MrMikey59/00---Projects/blob/master/XML/Parts/Parts.xml) File (Excerpt shown)
 ```xml
   <?xml version="1.0"?>  
   <parts>
@@ -170,5 +170,5 @@ This code is available in the [Books.hta](https://github.com/MikeMyers59/MikeMye
 ```
 
 Results displayed:    
-![Parts List in a HTA or HTML Document](https://github.com/MikeMyers59/MikeMyers59/blob/main/XML/Parts/Parts%20List%20in%20a%20Document.png)
+![Parts List in a HTA or HTML Document](https://github.com/MrMikey59/00---Projects/blob/master/XML/Parts/Parts%20List%20in%20a%20Document.png)
 
