@@ -35,7 +35,7 @@ Style can be implemented in three ways: Internal, Inline and External.
 
 #### CSS Rules
 
-CSS Rule for a Paragraph![CSS P Rule](https://github.com/MikeMyers59/MikeMyers59/blob/main/00Pics/CSS%20Rule%20Example.png)
+CSS Rule for a Paragraph![CSS P Rule](https://github.com/MrMikey59/00---Projects/blob/master/CSS/CSS%20Rule%20Example.png)
 ```css
 <STYLE type="text/css"> 
 p {
@@ -54,7 +54,7 @@ p {
 ```
 
 #### The Box Model
-The Box![The CSS Box Model](https://github.com/MikeMyers59/MikeMyers59/blob/main/00Pics/CSS%20Box%20Model.png)  
+The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/master/CSS/CSS%20Box%20Model.png)  
 **Note**: The visible width of the box is determined by adding together the content width, the padding and the border.
 
 
