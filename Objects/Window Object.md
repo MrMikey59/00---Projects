@@ -7,18 +7,25 @@
 | WinSettings | `WinSettings = ('resizable=no, scrollbars=no, width=550, height=158, toolbar=no')` | 
 | WinWidth | `var WinWidth = 400` | 
 
+## Event Handlers
+| Event | Description |
+| --- | --- |  
+| onerror | `window.onerror = errHandler` |  
+| onload | `window.onload = <fnCallName>;` |  
+
 ## Properties
 | Property | Description | Example | 
 | ---- | ---- | ---- | 
 | Caption | ---- | `Caption = <CaptionString>  ' Display with title` | 
 | defaultView   | --- | 
 | dialogArguments  | --- | 
-| event   | --- | 
+| event   | `window.event.cancelBubble = true;` | 
 | frameElement   | --- | 
 | Height | ---- | `Height = <Size>` | 
 | navigator   | --- | 
 | ownerDocument   | --- | 
-| parentWindow   | --- |
+| parentWindow   | --- |  
+| status | Sets or changes the Browser Status Bar text |  
 | top   | --- | 
 | Width | ---- | `Width = <Size>` | 
 | WindowState | ---- | `WindowState = xlNormal` | 
@@ -26,11 +33,19 @@
 ## Methods
 | Method | Description | Example | 
 | ---- | ---- | ---- | 
+| close() | closes the window |  
 | captureEvents() | direct events to your own processing | ---- | 
-| moveTo() |  |  
-| open() | Opens a URL in a named window or frame |
+| focus()  | Select window for focus |  |  
+| moveBy(dx,dy) |  |  | 
+| moveTo(x,y) | move the current window to a different screen location |  
+| open() | Opens a URL in a named window or frame window.open(<strURL>[, <strTitle>][, <strWindowAttributes>])` <BR> sample: <br> `strWindowAttributes = "height=420px, width=539px, scrollbars=yes,  top=100,left=100, resizable=yes")= "width=350, height=200, resizable=1"` |
 | releaseEvents() | release events to common processing | ---- | 
-| resizeTo() |  |  
+| resizeBy(dx,dy) | resize the current window |
+| resizeTo() | resize the current window |  |  
+| scrollBy(dx,dy) | scroll the current window |  |  
+| scrollTo(x,y) | scroll the current window |  |  
+| setTimeout() | Sets timeout value for window to automatically close it, requires function call to open window and time value in 1/100th seconds. |  |  
+| show | ` window.showModalDialog(<strURL>[, <strTitle>][, <strDialogAttributes>])` <BR> sample <br> ` strDialogAttributes = "dialogHeight:420px; dialogWidth:541px; help:0; resizable: yes; status:no"` |  |  
 
 ## Example Code
 
