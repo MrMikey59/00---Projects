@@ -2,6 +2,7 @@
 
 This folder contains JavaScript snippets and examples.
 
+JavaScript is also known as ECMAScript, LiveScript and JScript (MS Version)
 
 ### JavaScript Enclosure in HTML
 ```html
