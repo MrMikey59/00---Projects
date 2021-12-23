@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<HTML lang="en">
+<HEAD>
+    <title>Mike's Retirement Countdown [HTA]</title>
+    <META http-equiv="x-ua-compatible" content="ie=9">
+    <HTA:APPLICATION
+	ID="testHTA" 
+	APPLICATIONNAME="MikesRetirementCountdown" 
+	BORDER="dialog"
+	CAPTION="yes" 
+	MAXIMIZEBUTTON="yes"
+	MINIMIZEBUTTON="yes"
+        SCROLL = "yes"
+	SHOWINTASKBAR="yes" 
+	SYSMENU="yes" 
+    />
+
+<STYLE>
+  BODY, HTML { width: 98%; height: 100%; color: white; font-family: Rockwell Extra Bold; }
+  ADDRESS { font-family: Times New Roman; } 
+  INPUT { font-size: 30px; font-weight: bold; } 
+</STYLE>
+
+<SCRIPT text="text\vbscipt" language="VBScript">
+Sub Load()
+  ResizeWindow 1000,250 
+  startclock()  ' call to a javascript subroutine for the countdown timer!
+End Sub
+
+Sub ResizeWindow (winWidth, winHeight)
+  window.resizeTo winWidth, winHeight
+End Sub
+</SCRIPT>
+
+</HEAD>
+ 
+<BODY bgcolor=black onLoad = "vbscript:Load()">
+      <B>Today is: </B>
+      <SCRIPT language="javascript" text="text/javascript">
+        var monthNames = new Array("January", "February", "March", "April", "May", "June", "July", 
+                             "August", "September", "October", "November", "December"); 
+        var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+        var now = new Date();
+        document.writeln(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + (now.getYear()+1900));
+        var amorpm = (now.getHours() >= 0) && (now.getHours() <= 11) ? "AM" : "PM";
+        var hours = (now.getHours() == 0) ? 12 : (now.getHours() > 12 ? (now.getHours() - 12) : now.getHours());
+        var minutes = now.getMinutes() < 10 ? "0" + now.getMinutes() : "" + now.getMinutes()    
+        document.write(" " + hours + ":" + minutes + " " + amorpm);
+      </SCRIPT>
+      <!- Countdown Clock Display -->
+      <P>
+        
+        <CENTER><IMAGE src="rolleyes.gif"><NOBR><B>It's almost Mike's Retirement! Are you READY?</B><NOBR><IMAGE src="rolleyes.gif"></CENTER><BR>
+        <HR width=50% align=center>
+        Retirement starts in: 
+        <form name="frmTilBD">
+          <div align=center align=middle>
+            <input type="text" name="left" size=65 value="Java">
+          </div>
+        </form>
+      </P>
+
+<SCRIPT language="JavaScript" text="text/javascript">
+// Display a countdown clock based on an event my birthday: 12-30
+  var strDisplay;
+  var timerID = null;
+  var timerRunning = false;
+  
+  function showtime() {
+    now = new Date();
+    var CurHour = now.getHours();
+    var CurMinute = now.getMinutes();
+    var CurYear = now.getYear();
+    var CurMonth = now.getMonth();
+    var CurDate = now.getDate();
+    var CurSecond = now.getSeconds();
+    now = null;
+    Hourleft = 23 - CurHour;
+    Minuteleft = 59 - CurMinute;
+    Secondleft = 59 - CurSecond;
+    var Yearsleft = 2022 - CurYear - 1900;   // Target Year (1900 is an adjustment for date type)
+    var Monthleft = 05 - CurMonth;            // Target Month - 1
+    var Dateleft = 29 - CurDate;             // Target Date - 1
+    if (Dateleft<0) {
+      Monthleft = Monthleft-1;
+      switch (CurMonth) {
+        case 1  : Dateleft = Dateleft + 28;  // Feb - assumes no leap year
+        case 3  : Dateleft = Dateleft + 30;  // Apr
+        case 5  : Dateleft = Dateleft + 30;  // Jun
+        case 8  : Dateleft = Dateleft + 30;  // Sep
+        case 10 : Dateleft = Dateleft + 30;  // Nov
+        default : Dateleft = Dateleft + 31;  // Jan, Mar, May, Jul, Aug, Oct, Dec.
+      }
+    }; //Assumes all months are 30 days long
+    if (Monthleft!=1) {var mos="s"} else {var mos=""};
+    if (Dateleft!=1) {var ds="s"} else {var ds=""};
+    if (Hourleft!=1) {var hs="s"} else {var hs=""};
+    if (Minuteleft!=1) {var mis="s"} else {var mis=""};
+    if (Secondleft!=1) {var ss="s"} else {var ss=""};
+    if (Monthleft < 0 ) {
+      Monthleft = Monthleft + 12;
+      Yearsleft = Yearsleft - 1;
+    }
+    strDisplay=Yearsleft+' Years, '+Monthleft+' month'+mos+', '+Dateleft+' day'+ds+', '+Hourleft+' hour'+hs+', ';
+    strDisplay=strDisplay+Minuteleft+' minute'+mis+', '+Secondleft+' second'+ ss + '.';
+    document.frmTilBD.left.value=strDisplay;
+    timerID = setTimeout("showtime()",1000);
+    timerRunning = true;
+  }
+  
+  function stopclock () 
+ {
+    if(timerRunning)
+    clearTimeout(timerID);
+    timerRunning = false;
+  }
+ 
+  function startclock () {
+    // Make sure the clock is stopped
+    stopclock();
+    showtime();
+  }
+</SCRIPT>
+
+<!-- This is the credits section                                                         -->
+<!-- ----------------------------------------------------------------------------------- -->
+    <I><CENTER><B><SMALL>
+      <HR>
+      <SCRIPT language="JavaScript">
+      <!--Display the Date -->
+       document.write("HTA Last updated: "+ document.lastModified);
+      // -->
+      </SCRIPT>
+    </SMALL></B></CENTER></I>
+
+</BODY>
+ 
+</HTML>
