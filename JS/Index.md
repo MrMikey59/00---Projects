@@ -4,13 +4,19 @@ This folder contains JavaScript snippets and examples.
 
 JavaScript is also known as ECMAScript, LiveScript and JScript (MS Version)
 
+| Acronym | Description |  
+| --- | --- |  
+| ES5 | ECMAScript 5 |  
+| ES6 | ECMAScript 6 |  
+| JS | JavaScript |  
+
 ### JavaScript Enclosure in HTML
 ```html
   <SCRIPT type="text/JavaScript">
   </SCRIPT>
 ```
 
-Resorces:
+Resources:
 - [Simple-Excel.js](https://github.com/faisalman/simple-excel-js) - Client-side script to easily parse / convert / write any Microsoft Excel XLSX / XML / CSV / TSV / HTML / JSON / etc formats
 
 # Hold Area
