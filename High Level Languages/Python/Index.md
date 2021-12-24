@@ -9,10 +9,18 @@ This folder contains Python notes, snippets and examples.
 * [Downloads](http://www.python.org/download/)  
 
 #### Additional Sources  
-* [A Byte of Python](www.byteofpython.info) or [Alternate](http://www.ibiblio.org/swaroopch/byteofpython/read/)
+* [A Byte of Python](www.byteofpython.info) or [Alternate](http://www.ibiblio.org/swaroopch/byteofpython/read/)  
+* [Charming Python](http://gnosis.cx/publish/tech_index_cp.html) - an excellent series of Python-related articles by David Mertz.
+* [Code Like a Pythonista: Idiomatic Python](http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html) by David Goodger
 * [Dive into Python 3](https://diveintopython3.net/) by Mark Pilgrim  
 * [Harvard Intro to Python](http://tdc-www.harvard.edu/Python.pdf) (pdf)
 * [How to Think Like a Computer Scientist](https://www.greenteapress.com/thinkpython/html/index.html ) by Allen B. Downey
+* [IronPython](http://www.ironpython.com/) - an implementation of the Python interpreter in C# language and can run on the .NET / Mono / DotGNU platform.
+* [Lython](http://www.caddr.com/code/lython/) - a Lisp frontend to the Python language.
+* [ONLamp Python](http://www.onlamp.com/python/) - a Python DevCenter
+* [Python Cookbook](http://aspn.activestate.com/ASPN/Python/Cookbook/) - an extremely valuable collection of recipes or tips 
+* [Python Notes](http://pythonnotes.blogspot.com/) - a blog
+* [Python Programming Wikibook](http://en.wikibooks.org/wiki/Python_Programming)
 
 ## Python Modules
 
