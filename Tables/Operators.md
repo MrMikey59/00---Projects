@@ -47,6 +47,7 @@ Parentheses > Exponents > Multiplication > Division > Addition > Subtraction
 | +|Arithmetic operator|Adds the operands | Y | Y |  
 | **|Arithmetic operator|Power: Returns x to the power of y||Y|  
 | //|Arithmetic operator|Floor Division: Returns the floor of the quotient||Y|  
+| =|Assignment operator | assigns the remainder to the left operand | Y | Y |  
 | %=|Assignment operator|Divides the left by the right operand and assigns the remainder to the left operand | Y |  |  
 | *=|Assignment operator|Multiplies the operands and assigns the result to the left operand | Y |  
 | /=|Assignment operator|Divides the left by the right operand and assigns the result to the left operand | Y |  |  
