@@ -33,6 +33,8 @@
 ## Methods
 | Method | Description |  
 | ---- | ---- |  
+| addEventListener | create an event listener direction (Non-IE) |  
+| attachEvent | create an event listener direction (IE) |  
 | close() | closes the window |  
 | captureEvents() | direct events to your own processing |  
 | focus()  | Select window for focus |  
@@ -48,6 +50,20 @@
 | show | ` window.showModalDialog(<strURL>[, <strTitle>][, <strDialogAttributes>])` <BR> sample <br> ` strDialogAttributes = "dialogHeight:420px; dialogWidth:541px; help:0; resizable: yes; status:no"` |  
 
 ## Example Code
+
+#### Add an Event Listener
+```javascript
+if (window.addEventListener) { 
+// Mozilla, Netscape, Firefox
+  window.addEventListener('load'
+WindowLoad
+false);
+} else if (window.attachEvent) { 
+// IE
+  window.attachEvent('onload'
+WindowLoad);
+}
+```
 
 #### Center a Window
 ```vbscript

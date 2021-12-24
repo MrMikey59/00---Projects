@@ -1,11 +1,15 @@
 # Processes used within GitHub Website
 
-Git Bash isan emulator that allows you to interact with Git just like you would on a Linux or Mac terminal. 
+Git Bash is an emulator that allows you to interact with Git just like you would on a Linux or Mac terminal. 
 
 #### Resources related to GitHub:
 
 * [git](https://gitforwindows.org)
+    * [git Branching](https://learngitbranching.js.org)
+    * [git School](http://git-school.github.io/visualizing-git)
+    * [Visual Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)  
 * [GitHub Help](https://help.github.com)
+* [GitHub Gists](https://gist.github.com/)  
 * [GitHub Guides](https://guides.github.com)
 * [GitHub Blog](https://blog.github.com/)
 
