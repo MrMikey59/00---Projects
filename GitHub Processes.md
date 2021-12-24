@@ -1,5 +1,23 @@
 # Processes used within GitHub Website
 
+Git Bash isan emulator that allows you to interact with Git just like you would on a Linux or Mac terminal. 
+
+#### Resources related to GitHub:
+
+* [git](https://gitforwindows.org)
+* [GitHub Help](https://help.github.com)
+* [GitHub Guides](https://guides.github.com)
+* [GitHub Blog](https://blog.github.com/)
+
+#### For PowerShell
+
+* [Posh git](https://github.com/dahlbyk/posh-git)  
+To use posh-git, I only needed to run the following two commands in PowerShell:
+```powershell
+(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
+install-module posh-git
+```
+
 ### Sitewide Keyboard Shortcuts
 ![Sitewide Shortcuts](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/GitHub%20Sitewide%20Shortcuts.png)
 

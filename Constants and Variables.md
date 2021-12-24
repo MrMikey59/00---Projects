@@ -1,11 +1,13 @@
 # Constants and Variables
 
 #### Declare Constant
+VBScript:  
 ```vbscript
 {Public | Private | Dim } <varName> [As <Type>]
 ```
 
 #### Declare Variables
+VBScript:  
 ```vbscript
 Const <Name> [As <Type> ]= <Value>
 ```
