@@ -2,9 +2,35 @@
 
 This folder contains Python notes, snippets and examples.
 
-Python 3.x https://www.python.org
+[Python 3.x](https://www.python.org)  
+
+* [Changes](http://docs.python.org/modindex.html)  
+* [Documentation](http://www.python.org/doc/ )   
+* [Downloads](http://www.python.org/download/)  
+
+#### Additional Sources  
+* [A Byte of Python](www.byteofpython.info) or [Alternate](http://www.ibiblio.org/swaroopch/byteofpython/read/)
+* [Dive into Python 3](https://diveintopython3.net/) by Mark Pilgrim  
+* [Harvard Intro to Python](http://tdc-www.harvard.edu/Python.pdf) (pdf)
+* [How to Think Like a Computer Scientist](https://www.greenteapress.com/thinkpython/html/index.html ) by Allen B. Downey
 
 ## Python Modules
+
+###### Astromony Modules
+  *	[AstroPy](http://www.astro.washington.edu/users/rowen/AstroPy.html) 
+  *	[iPython](http://ipython.scipy.org/) (better shell distributed computing)   
+  *	[Python Astronomy Modules](http://astlib.sourceforge.net/) 
+  *	[Python Astronomer Wiki](http://macsingularity.org/astrowiki/tiki-index.php?page=python)   
+  *	[Python for Astronomers](http://www.iac.es/sieinvens/siepedia/pmwiki.php?n=HOWTOs.EmpezandoPython)  
+  *	[SciPy](http://www.scipy.org/) (collection of science tools)   
+
+###### Astronomy Wrappers for Modules
+  * CasaPy (Casa)
+  * ParselTongue (AIPS)
+  * PYGILDAS (GILDAS)
+  * PyIMSL (IMSL)
+  * PyMIDAS (MIDAS)
+  * PyRAF (IRAF)
 
 #### Matplotlib  
 * High quality plotting library.  
@@ -41,6 +67,10 @@ Operating System (Included): Some of the more useful parts of the os module are 
 `<ObjPickle>.dump(<ObjectName>, <FileName>) # dump the object to a file`  
 `<ObjVarName> = <ObjPickle>.load(<FileName>) # retrieve the object`
 
+#### PyDS9 & Python-sao
+* Interaction with DS9; Display Python 1-D and 2-D arrays in DS9; Display FITS files in DS9  
+  http://code.google.com/p/python-sao/   
+
 #### PyFits  
 * FITS I/O made simple  
 http://www.stsci.edu/resources/software_hardware/pyfits 
@@ -53,9 +83,42 @@ http://www.stsci.edu/resources/software_hardware/pyfits
 
 #### Python(x,y)  
 * a free scientific and engineering development software for numerical computations data analysis and data visualization  
-http://www.pythonxy.com/
+  http://www.pythonxy.com/
+
+#### Pytho Imaging Library 
+  http://www.pythonware.com/products/pil/index.htm
 
 #### Sage  
 * a free open-source mathematics software system licensed under the GPL. It combines the power of many existing open-source packages into a common Python-based interface  
-http://www.sagemath.org/
+  http://www.sagemath.org/
+
+#### sys 
+* included in Python  
+```python
+import sys
+```
+  | Example | Description | 
+  | --- | --- |  
+  | `sys.argv` <BR> `sys.argv[<Index>]`|Arguments list <BR> Individual item in list <BR> `for i in sys.argv:’ <BR> `print i` | 
+  |  `sys.path`|AKA `PYTHONPATH` environmental variable| 
+  |  `sys.exit()`|Exit the program| 
+
+#### tarfile 
+* included in Python  
+
+#### time 
+* included in Python  
+```python
+time.strftime('%Y%m%d%H%M%S')  # String Format Time
+time.sleep(<NumberofSeconds>)
+```
+
+#### Twisted
+  http://www.twistedmatrix.com/products/twisted
+
+#### wxPython
+  http://www.wxpython.org/  
+
+#### zipfile 
+* included in Python  
 
