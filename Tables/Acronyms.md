@@ -7,6 +7,7 @@
 |CTL|Certificate Trust List|
 |CWIS|Campus-Wide Information System|
 |HTTP|HyperText Transfer Protocol|  
+|IDLE| Integrated DeveLopment Environment |  
 |IE| Internet Explorer |  
 |JS| JavaScript |  
 |METS|Metadata Coding and Transmission Standard|
