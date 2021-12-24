@@ -2,6 +2,8 @@
 
 Git Bash is an emulator that allows you to interact with Git just like you would on a Linux or Mac terminal. 
 
+git Process Diagram: ![git Process Diagram](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/git%20Block%20Diagram.png)  
+
 #### Resources related to GitHub:
 
 * [git](https://gitforwindows.org)

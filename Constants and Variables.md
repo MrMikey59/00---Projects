@@ -5,6 +5,8 @@
 * The first character of the identifier must be a letter of the alphabet (upper or lowercase) or an underscore ('_').
 * The rest of the identifier name can consist of letters (upper or lowercase), underscores ('_') or digits (0-9).
 * Identifier names are case-sensitive.
+* Use a double underscore to start a PRIVATE variable name.
+* Use a single underscore to start a semi-private variable name.
 
 #### Declare Constant
 VBScript:  

@@ -130,3 +130,26 @@ time.sleep(<NumberofSeconds>)
 #### zipfile 
 * included in Python  
 
+## Special Characters
+
+| Special Character | Description |  
+| :---: | --- |  
+| # | Hashtag/Pound Sign: Start of a single comment |  
+| _ | Underscore: allowed within all user created names, leading & trailing underscores have special meanings |  
+| """ … """ | Multiline document string (comment) – can proceed any function or class |  
+
+#### Special Comments
+| Comment | Example |  
+| --- | --- |  
+| Set Code Page to UTF-8|`# -*- coding: utf-8 -*-` |  
+| Define Python storage location|`#!/usr/bin/python` |  
+| State the Filename|`# Filename: <FileName>.py` |  
+
+#### Use the Multiline Comment as a Function Descriptor
+```python
+Def my_function(x, y):
+  “““This is a docstring. This 
+  function does blah blah blah.”””
+  <PyCommands>
+```
+
