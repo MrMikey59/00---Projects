@@ -1,0 +1,13 @@
+# tar - The Archiver
+
+```shell
+tar -cvzf %s %s -X /home/swaroop/excludes.txt' % (target, ' '.join(srcdir))
+```  
+
+The options are explained below.
+•	-c indicates creation of an archive.
+•	-v indicates verbose i.e. the command should be more talkative.
+•	-z indicates the gzip filter should be used.
+•	-f indicates force in creation of archive i.e. it should replace if there is a file by the same name already.
+•	-X indicates a file which contains a list of filenames which must be excluded from the backup. For example, you can specify *~ in this file to not include any filenames ending with ~ in the backup.
+
