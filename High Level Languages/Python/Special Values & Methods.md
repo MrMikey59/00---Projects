@@ -15,3 +15,11 @@
 | `<ModuleName>.<VarName>`|Returns the value of VarName from  the module referenced (a field or property)|  
 | self|A variable refers to the object itself. When you call a method of this object as MyObject.method(arg1, arg2), it is automatically converted by Python into MyClass.method(MyObject, arg1, arg2) - this is what the special self is all about.|  
 
+## Printer Formatters
+
+| Print Formatter | Descripeion |  
+| --- | --- |  
+| %s|take the variable on the right and put it in to replace the %s with its value <BR> `print "Hey %s there." % <VarName>` <BR> `y = "Those who know %s and those who %s." % (binary, do_not)`|  
+| %r|print this no matter what |  
+| %d||  |  
+
