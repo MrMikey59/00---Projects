@@ -1,5 +1,11 @@
 # Python Reserved Words
 
+Note:  
+
+* Line contunation is by placing a `\` at the end of the line to be extended.
+* Code lines end with `;`.
+* Blocks are created by indentation.
+
 | Reserved Word | Description | Example |  
 | --- | --- | --- |  
 | and|Logical operator|  |  

@@ -1,5 +1,11 @@
 # Constants and Variables
 
+#### Python Identifiers (Names)
+
+* The first character of the identifier must be a letter of the alphabet (upper or lowercase) or an underscore ('_').
+* The rest of the identifier name can consist of letters (upper or lowercase), underscores ('_') or digits (0-9).
+* Identifier names are case-sensitive.
+
 #### Declare Constant
 VBScript:  
 ```vbscript

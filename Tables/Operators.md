@@ -72,7 +72,8 @@ Parentheses > Exponents > Multiplication > Division > Addition > Subtraction
 | not|Logical operator|Boolean NOT: If x is True, it returns False. If x is False, it returns True.||Y|  
 | and|Logical operator|Boolean AND: x and y returns False if x is False, else it returns evaluation of y||Y|  
 | or|Logical operator|Boolean OR: If x is True, it returns True, else it returns evaluation of y||Y|  
-| +|String operator| Concatenation: Combines the operands into a single string| Y |  |  
+| +|String operator| Concatenation: Combines the operands into a single string| Y | Y |  
+| *|String operator| Repeat: Combines the operand into a single string repeating it a number of times|  | Y |  
 
 ## Wild Cards 
 | Character | Description | Usage | 
