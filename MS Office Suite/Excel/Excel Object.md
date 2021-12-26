@@ -24,5 +24,8 @@ Everything starts here, but some instances these may be omitted!
 ## Common Properties
 | Property | Script | Description |  
 | ---- | ---- | ---- |   
+| Column |  |  |  
 | hidden | ```<Location>.Hidden = { True \| False }``` | Makes the <Location> Visible or Hidden. |  
+| Row |  |  |  
+|  |  |  |  
 
