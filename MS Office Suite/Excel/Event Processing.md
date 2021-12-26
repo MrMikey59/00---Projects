@@ -26,7 +26,8 @@ Private Sub Worksheet_SelectionChange(ByVal Target As Excel.Range)
 End Sub
 ```
 
-#### Color Change Tools
+#### Color Change Tools  
+The Range: ![The Range](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Excel/xlRange%2001.png)  
 ```vb
 Private Sub Worksheet_SelectionChange(ByVal Target As Excel.Range)
   Me.Cells(8, 3).Interior.Color = RGB(Me.Cells(3, 1), Me.Cells(3, 2), Me.Cells(3, 3))

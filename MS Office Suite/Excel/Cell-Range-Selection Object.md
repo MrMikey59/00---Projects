@@ -25,6 +25,39 @@ This object provides access to all workbooks within the open application.
 
 ## Examples
 
+#### Check Values in a known Range 
+
+###### Left ot Right, then Top to Bottom
+```vb
+Sub CheckValues1()
+' This sub checks values in a range 10 rows by 5 columns
+' moving left to right, top to bottom-----
+  Dim rwIndex As Integer
+  Dim colIndex As Integer
+  For rwIndex = 1 To 10
+    For colIndex = 1 To 5
+      If Cells(rwIndex, colIndex).Value <> 0 Then _
+        Cells(rwIndex, colIndex).Value = 0
+    Next colIndex
+  Next rwIndex
+End Sub
+```
+
+###### Top to Bottom, then Left ot Right
+```vb
+Sub CheckValues2()
+' Same as CheckValues1 except moving top to bottom, left to right-----
+Dim colIndex As Integer
+Dim rwIndex As Integer
+    For colIndex = 1 To 5
+            For rwIndex = 1 To 10
+                If Cells(rwIndex, colIndex).Value <> 0 Then _
+                    Cells(rwIndex, colIndex).Value = 0
+            Next rwIndex
+    Next colIndex
+End Sub
+```
+
 #### Select First to Last in a Row  
 This assumes a maximum of 256 columns & that there is only one contiguous table in the row.  
 ```vba

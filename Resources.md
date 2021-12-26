@@ -7,6 +7,8 @@
   - [Kindle Previewer](https://www.amazon.com/Kindle-Previewer/b?node=21381691011)  
   - [Kindle Store](https://www.amazon.com/Kindle-eBooks/)  
   - [Product Services API ](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html)  
+- [Apache Software Foundation](http://www.apache.org/)  
+- [Free Software Foundation](http://www.fsf.org/)  
 - [Google](http://www.google.com/)   
   - [Add URL - SEO](http://www.google.com/addurl/)   
   - [Cloud: Natural Language](https://cloud.google.com/natural-language/)  
@@ -69,17 +71,18 @@
   - [Atom - GitHub](https://github.com/atom) - Text Editor  
 - [Dillinger (MD in Browser)](https://dillinger.io/)  
   - [Dillinger - GitHub](https://github.com/joemccann/dillinger)  
+- [Eclipse Foundation](http://www.eclipse.org/)  
 - [ExpressJS](http://expressjs.com) 
 - [GhostWriter](https://wereturtle.github.io/ghostwriter/) 
 - [GulpJS](http://gulpjs.com) 
-- [jQuery](http://jquery.com)
-- [Node.js ](https://nodejs.org/) 
-  - [node.js - GitHub](http://nodejs.org)  
 - NotePad++     
 - [NoteTab  ](http://www.notetab.com)   
 - [StackEdit (MD in Browser)](https://stackedit.io/app) 
 
 ## JavaScript
+- [jQuery](http://jquery.com)
+- [Node.js ](https://nodejs.org/) 
+  - [node.js - GitHub](http://nodejs.org)  
 
 #### Frameworks & Packages
 - [BootStrap](http://www.getbootstrap.com)  - A flexbox grid system
