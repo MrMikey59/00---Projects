@@ -19,3 +19,14 @@ Common Object Collections
 `Application.Workbook.Worksheet.<Object|Property|Method>[...]`  
 Assumes the Application, ActiveWorkbook, or AcitiveWorksheet if omitted from a call..
 
+### Common VBA Routine with Error Trap
+```vba
+Sub <ProcessName>()
+  On Error GoTo HandleError
+  <VBACommands>
+HandleError:
+  <ProcessError>
+[  GoTo Exit]
+Exit:
+End Sub
+```
