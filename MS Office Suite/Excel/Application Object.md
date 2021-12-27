@@ -12,7 +12,8 @@ This object provides access to the application within the open window.
 ## Properties
 
 | Property | Description |
-| ---- | ---- | 
+| ---- | ---- |  
+| StatusBar | returns/displays status | 
 
 ## Methods
 | Method | Description |
@@ -20,3 +21,13 @@ This object provides access to the application within the open window.
 | Calculate | Cause the spreadsheet to recalulate (same as F9) |
 | Workbooks() | the Workbooks object list |
 
+
+## Examples
+
+#### Hold Events While Processing
+
+Use these to pause and then restore event processing:
+```vb
+Application.EnableEvents = False ' at the start of your code
+Application.EnableEvents = True  ' at the end of your code
+```

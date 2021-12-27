@@ -9,6 +9,16 @@ Private Sub Worksheet_Activate()
 End Sub
 ```
 
+## Change
+```vb
+Private Sub Worksheet_Change(ByVal Target As Excel.Range)
+' This is a simple sub that changes what you type in a cell to upper case.
+  Application.EnableEvents = False
+    Target = UCase(Target)
+  Application.EnableEvents = True
+End Sub
+```
+
 ## Selection  
 ```vb
 Private Sub Worksheet_Change(ByVal Target As Excel.Range)
