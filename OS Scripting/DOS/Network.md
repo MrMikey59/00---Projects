@@ -57,5 +57,16 @@ netsh mbn show capability interface=*
 | Action | Example | 
 | ---- | ---- | 
 | Test Loopback | ```ping 127.0.0.1 -n 15 [ > NUL ]``` | 
-  
+
 # Trace the Route (TRACRT)
+
+# WMIC 
+```dos
+  wmic logicaldisk where drivetype=2 get deviceid
+```
+
+### Stop WMIC
+```dos
+  net stop winmgmt /y
+```  
+

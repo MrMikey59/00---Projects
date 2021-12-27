@@ -9,6 +9,22 @@
 | Turn Off Common Screen Output | ```@ECHO off ```| 
 | Comment on Screen to User | ```ECHO <Put Status to User Here> ```| 
 
+## Copy to Clipboard
+```dos
+  <DOSCommand> | clip
+  Send output to the windows clipboard with pipe
+```
+
+## Kill a Task
+```dos
+  Taskkill /IM "iexplore.exe" /F
+```
+
+## Looping with For
+```dos
+  for <ValName> in (<ListCreateCommand>) do <DOSCommand>
+```
+
 ## Log to a File
 ```dos
   SET logfile=<FilePathName>.log
@@ -25,7 +41,12 @@
 | %TIME% | System Time | 
 | %PATH% | System Search Path - comma separated folder paths |
 
-# Run Scripts
+## Register a DLL
+```dos
+  regsvr32 /s <DLLPathName>
+```
+
+## Run Scripts
 - ```Call <ScriptName>```
 - ```powershell –command <PowerShellScript>```
 
@@ -39,3 +60,9 @@
 | >> | Route to | ```SET logfile=<FilePathName>.log```<BR>```ECHO + DATE: %DATE%	+>>%logfile%```<BR>```ECHO + TIME: %TIME%	+>>%logfile%  ``` |
 | Pipe \| | Pass to, Chain commands| |
 | @ | Ignore console repeat | |
+
+### Update Group Policy
+```dos
+  gpupdate \force
+```
+
