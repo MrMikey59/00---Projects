@@ -9,7 +9,7 @@ The Git Connection: ![Git COnnections](https://github.com/MrMikey59/00---Project
 | Command | Description |  
 | --- | --- |  
 | add . | Stage all modified files |  
-| code . | Open VS Code with current respository |
+| code . | Open VS Code with current respository |  
 | explorer \<PathName> | open folder in Windows File Explorer | 
 | git add \<FileName> | Create a new file in the current directory/repository <BR> Same as `git stage` |  
 | git branch | List all current/available branches |  
@@ -17,7 +17,8 @@ The Git Connection: ![Git COnnections](https://github.com/MrMikey59/00---Project
 | git cat-file [-t \| -p ] \<CommitGUID> | list a commit object <BR> -t list type of the object <BR> -p lists objects parents |  
 | git checkout -d \<BranchName> | Delete branch from local repository |  
 | git clone \<RepositoryLink> | Open a clone repository |  
-| git commit -m \<CommitMessage> | commit updates to repository |
+| git commit -m \<CommitMessage> | commit updates to repository |  
+| git config --get credential.helper | Returns name of credential manager |  
 | git config --global user.name \<UserName> <BR> git config --global user.email \<EmailAddress> |  Set global Name & Email |  
 | git config user.name \<UserName> <BR> git config user.email \<EmailAddress> |  Set local repository Name & Email |  
 | git init | start a git repository in the current directory |  
