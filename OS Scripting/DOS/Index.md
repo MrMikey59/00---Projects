@@ -56,8 +56,8 @@
 | . | Current Directory | |
 | .. | Parent Directory | |
 | < | Input from | |
-| > | Output to | |
-| >> | Route to | ```SET logfile=<FilePathName>.log```<BR>```ECHO + DATE: %DATE%	+>>%logfile%```<BR>```ECHO + TIME: %TIME%	+>>%logfile%  ``` |
+| > | Output to file (new) | |
+| >> | Output to file (append) | ```SET logfile=<FilePathName>.log```<BR>```ECHO + DATE: %DATE%	+>>%logfile%```<BR>```ECHO + TIME: %TIME%	+>>%logfile%  ``` |
 | Pipe \| | Pass to, Chain commands| |
 | @ | Ignore console repeat | |
 

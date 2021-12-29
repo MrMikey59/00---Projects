@@ -75,9 +75,10 @@
 - [ExpressJS](http://expressjs.com) 
 - [GhostWriter](https://wereturtle.github.io/ghostwriter/) 
 - [GulpJS](http://gulpjs.com) 
-- NotePad++     
+- NotePad++
 - [NoteTab  ](http://www.notetab.com)   
 - [StackEdit (MD in Browser)](https://stackedit.io/app) 
+- SublimeText
 
 ## JavaScript
 - [jQuery](http://jquery.com)
