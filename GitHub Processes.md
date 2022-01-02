@@ -14,6 +14,8 @@ git Process Diagram: ![git Process Diagram](https://github.com/MrMikey59/00---Pr
 * [GitHub Gists](https://gist.github.com/)  
 * [GitHub Guides](https://guides.github.com)
 * [GitHub Blog](https://blog.github.com/)
+* [.gitignore](https://git-scm.com/docs/gitignore)
+* [.gitattribute](https://git-scm.com/docs/gitattributes )
 
 #### For PowerShell
 
