@@ -1,6 +1,11 @@
 # Database Forms
 
-## Log On
+### Conventions I Use
+1. Any form ending with “View” is used for entry/editing of Table information. View forms are used to display a single record for editing or a blank record adding.   
+    - To enter a new record, the “Enter” key must be used to finish the record and clear the form. When editing, the only record available is the currently selected record and closing the form updates the information. In the AfterChange Events of the View form, be sure to set the requery for the combobox (cmbXxxx) to reset the select list after adding/editing the record. (for example: Forms!frmMainMenu!cmbAcronymSelect.Requery)  
+    - The Cycle property for these view forms should also be set to “Current Record” to prevent tabbing through other records.
+
+## Log On Form
 Continue Button
 Requires:
 -  tblUsers
@@ -64,12 +69,22 @@ Private Sub lstUsers_AfterUpdate()
 End Sub
 ```
 
-## Main Menu
+## Main Menu Form
 
 Load
 ```vbscript
 Private Sub Form_Load()
   Me!lblDate.Caption = Format(Now, "dddd, mmm d yyyy")
+' This defines the location of the database within the system and 
+' sets the ComboBox to location
+' strDirLoc is a Public variable; cboLocation is a ComboBox on 
+' frmMainMenu
+  strDirLoc = GetBaseDirectory("EB TR32") ' uses global variable & function
+  cboLocation = DLookup("WorkPlace", "lkpDirectory", "BaseDirectory = '" & strDirLoc & "'")
+' MsgBox strDirLoc
+  Dim strUserName As String
+  GetUserName
+  txtWelcomeUser = "Welcome, " & strUserName & "!"
 End Sub
 ```
 
