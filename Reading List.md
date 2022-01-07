@@ -1,5 +1,22 @@
 # Reading List
 
+## Programming Books to Read
+	1. The Pragmatic Programmer - Andrew Hunt & David Thomas
+	2. The Art of Computer Programming - Donald Knuth
+	3. Don't Make Me Think(Revisited) - Steven Krug
+	4. Coders at Work - Peter Seibel
+	5. The Mythical Man-Month - Frederick P Brooks, Jr.
+	6. Code Complete 2 - Steve McConnell
+	7. Cracking the Coding Interview - Gayle Laakmann McDowell
+	8. Soft Skills: The Software Developer's Life Manual - John Z Sonmez
+	9. Zen and the Art of Motorcycle Maintenance - Robert M. Pirsig
+	10. Clean Code - Robert C Martin
+	11. Continuous Delivery - Jez Humble & David Farley
+	12. Working Effectively with Legacy Code - Michael C Feathers
+	13. Code: The Hidden Language of Computer Hardware and Software - Charles Petzold
+	14. Programming Pearls (2nd Edition) - Jon Bentley
+	15. Introduction to Algorithms (3rd Edition) - Thomas H Cormen, Charles Leiserson, Ronald Rivest & Clifford Stein
+
 ## Reading in Progress
 
 | Title | Author | Notes |
