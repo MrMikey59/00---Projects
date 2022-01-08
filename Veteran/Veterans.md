@@ -1,8 +1,8 @@
 # Veterans
-[Disabled American Veterans (DAV)](https://github.com/MikeMyers59/MikeMyers59/blob/main/Veteran/Veterans.md#disabled-american-veterans-dav)
-[US Department of Defense (DoD)](https://github.com/MikeMyers59/MikeMyers59/blob/main/Veteran/Veterans.md#us-department-of-defense-dod)  
-[US Department of Veterans Affairs](https://github.com/MikeMyers59/MikeMyers59/new/main#us-department-of-veterans-affairs-dva)  
-[Washington State Department of Veteran Affairs (WDVA)](https://github.com/MikeMyers59/MikeMyers59/blob/main/Veteran/Veterans.md#washington-state-department-of-veteran-affairs-wdva)
+[Disabled American Veterans (DAV)](https://github.com/MrMikey59/00---Projects/blob/master//Veteran/Veterans.md#disabled-american-veterans-dav)
+[US Department of Defense (DoD)](https://github.com/MrMikey59/00---Projects/blob/master//Veteran/Veterans.md#us-department-of-defense-dod)  
+[US Department of Veterans Affairs](https://github.com/MrMikey59/00---Projects/blob/master/Veteran/Veterans.md#us-department-of-veterans-affairs-dva)  
+[Washington State Department of Veteran Affairs (WDVA)](https://github.com/MrMikey59/00---Projects/blob/master/Veteran/Veterans.md#washington-state-department-of-veteran-affairs-wdva)
 
 | VA Disability Rating|Ind. Rating|Aggr. Rating|Rest|VA Rating |  
 | -- | :--: | :--: | :--: | :--: |   
@@ -72,8 +72,8 @@ I am committed to excellence and the fair treatment of allUSMV
 This Defense Health Agency-Procedural Instruction (DHA-PI): a. Based on the authority of References (a) and (b), and in accordance with the guidance of References (c) through (r), establishes the Defense Health Agency’s (DHA) procedures to establish common and uniform guidelines, standards, and procedures for all DoD MTFs providing hearing health services to beneficiaries through RACHAP. This program has been operating at self-selected MTFs without established DoD guidance. b. Enables MTFs with capacity and capability to provide hearing aid evaluation, selection, fitting, and follow-up appointments utilizing an at cost Federal Government contract price through RACHAP to RACHAP-eligible beneficiaries (“RACHAP-eligible beneficiaries” defined in the Glossary). c. Incorporates, cancels, and replaces Reference (s).  
 
 # US Department of Veterans Affairs (DVA)  
-[Benefits](https://github.com/MikeMyers59/MikeMyers59/new/main#benefits)  
-[Health](https://github.com/MikeMyers59/MikeMyers59/new/main#health)  
+[Benefits](https://github.com/MrMikey59/00---Projects/blob/master/Veteran/Veterans.md#benefits)  
+[Health](https://github.com/MrMikey59/00---Projects/blob/master/Veteran/Veterans.md#health)  
 
 Veterans Bureau (1921-1930)
 Veterans Administration (1930-1989)
