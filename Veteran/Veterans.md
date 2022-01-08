@@ -28,7 +28,7 @@
 I, (NAME), do solemnly swear (or affirm) that I will support and defend the Constitution of the United States against all enemies, foreign and domestic; that I will bear true faith and allegiance to the same; and that I will obey the orders of the President of the United States and the orders of the officers appointed over me, according to regulations and the Uniform Code of Military Justice. [So help me God.]
 
 Warning: US Military Veteran!  
-![US Military Veteran](https://github.com/MikeMyers59/MikeMyers59/blob/main/Veteran/Veterans%2001.png)
+![US Military Veteran](https://github.com/MrMikey59/00---Projects/blob/master/Veteran/Veterans%2001.png)
 
 ###### Sailor's Creed
 I am a United States Sailor.
