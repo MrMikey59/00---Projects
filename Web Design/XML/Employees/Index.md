@@ -10,7 +10,7 @@ Once you know how to retrieve XML data from a server, the next step is to learn 
 ```
 
 2.	The XML document that we'll load into this HTML has the following structure. Note that the nodes for Employees 3 through 6 are collapsed in the following image.
-    ![Employees XML File](https://github.com/MikeMyers59/MikeMyers59/blob/main/XML/Employees/EmployeesXMLExample.png)
+    ![Employees XML File](https://github.com/MrMikey59/00---Projects/blob/master/Web%20Design/XML/Employees/EmployeesXMLExample.png)
     
 3. 1.	After the page loads, use JavaScript to run a function called `buildTable()`, which in turn will run a function to populate the table rows. 
 ```javascript
@@ -211,5 +211,5 @@ This function loops through the passed-in XML nodeList, adding a new table row f
 ```
 
 When run, the script will produce the following output in a browser:
-![Employees XML to HTML Table Results](https://github.com/MikeMyers59/MikeMyers59/blob/main/XML/Employees/EmployesXMLResults.png)
+![Employees XML to HTML Table Results](https://github.com/MrMikey59/00---Projects/blob/master/Web%20Design/XML/Employees/EmployesXMLResults.png)
 
