@@ -13,6 +13,7 @@
 |METS|Metadata Coding and Transmission Standard|
 |MODS|Metadata Object Description Schema|
 |NaN| Not a Number |  
+| ODBC|Open DataBase Connectivity |
 |PWA|Progressive Web Application|
 |Py| Python |  
 |RWD|Responsive Web Design|
