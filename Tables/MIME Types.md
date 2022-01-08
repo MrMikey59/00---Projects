@@ -1,3 +1,10 @@
+# MIME Types
+
+## Resources
+- http://www.iana.org/assignments/media-types/media-types.xhtml
+- http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
+- http://hg.nginx.org/nginx/raw-file/default/conf/mime.types
+
 | File Ext | MIME Type
 | -------- | --------- |
 | css | text/css <br> `<link type="text/css" rel="stylesheet" href="<FilePathName>" media="all">` |
