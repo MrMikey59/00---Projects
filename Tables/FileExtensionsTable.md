@@ -6,9 +6,16 @@
 | --- | --- | --- |  
 | Audio-Video | AIFF sound file | .aiff |  
 | Audio-Video | AU sound file | .au |  
+| Audio-Video| |.avi  |  
+| Audio-Video | MPEG audio | .mp3 <BR> .mp2 |  
 | Audio-Video | MPEG movie | .mpeg <BR> .mpg |  
 | Audio-Video | QuickTime movie | .mov |  
+| Audio-Video| |.qt  |  
+| Audio-Video|Real Media audio file|.rm  |  
 | Audio-Video | WAV sound file | .wav |  
+| Audio-Video| |.wma  |  
+| Document|Cascade Style Sheet |.css  |  
+| Document|HTML Application, Special HTML that doesn't use the browser for display, uses MSHTML.exe instead|.hta  |  
 | Document | HTML document | .html <BR> .htm <br> .mht |  
 | Document | Plain Text | .txt <BR> .text <BR> .textfile |  
 | Document | Markdown Language | md |  
@@ -16,14 +23,39 @@
 | Document | Excel Binary Workbook | xlsb | 
 | Document | Excel Macro-Enabled Workbook | xlsm | 
 | Document | Excel XML Workbook stored as a series of XML objects and then zipped into a single file | xlsx | 
-| Document | YAML: Yet Another Markdown Language | yml | | Image | GIF image | .gif |  
+| Document | YAML: Yet Another Markdown Language | yml | | Image | Executable||.com  |  
+| Executable||.exe  |  
+| Executable|Script, Precompiled|.jse  |  
+| Executable|VB Script, Precompiled|.vbe  |  
+| Image | GIF image  | .gif |  
 | Image | JPEG image | .jpeg <BR> .jpg |  
 | Image | PostScript file | .ps |  
 | Image | TIFF image | .tiff |  
 | Image | X Bitmap image | .xbm |  
-| Script | BASH Shell | .sh |  
 | Script | DOS Shell | .bat <BR> .cmd |  
+| Script|Dynamic Link Library, Called from scripts & executables|.dll  |  
+| Script|Used with HTML & HTA pages|.js  |  
 | Script | PowerShell | .ps1 |  
+| Script | BASH Shell | .sh |  
+| Script|Typically used as MS Office module|.vb  |  
+| Script|Used with HTML & HTA pages|.vbs  |  
+| Script| |.wsc  |  
+| Script| |.wsf  |  
+| Script| |.wsh  |  
+| System|Executable used when loading OS at startup|.386  |  
+| System|Control Panel|.cpl  |  
+| System|Security Certificate|.crt  |  
+| System|Drive Specification, used when loading OS at startup|.drv  |  
+| System| Help|.hlp  |  
+| System|Information, used when loading OS at startup|.inf  |  
+| System| Symbolic Link|.lnk  |  
+| System| MS Management Console|.msc  |  
+| System| MS Install|.msi  |  
+| System| MS Install Package|.msp  |  
+| System|Modifies registry|.reg  |  
+| System| |.sys  |  
+| System| URL Link|.url  |  
+| System | Virtual Disk Drive|.vxd  |  
     
 ## Archives  
 If you need more than what Windows offers, we recommend 7-Zip. 7-Zip is a free, open-source, powerful archiving tool for Windows. Its own 7z format is fantastic, but it also supports other popular formats including RAR, ZIP, GZIP, BZIP2, DMG, and ISO. 7-Zip actually has the best compression out of any file archiving program, too. Select its own 7z format and you’ll see smaller files than you would with other archive formats.  
