@@ -9,6 +9,5 @@
 
 | Process | Action |  
 | -- | -- |  
-| Enable the soft wrapping | ![GitHub Editor Soft Wrap](https://github.com/MikeMyers59/MikeMyers59/blob/main/GitHub%2001.png) |  
-
+| Enable the soft wrapping | ![GitHub Editor Soft Wrap](https://github.com/MrMikey59/00---Projects/blob/master/Git%20%26%20GitHub/GitHub%2001.png |  
 

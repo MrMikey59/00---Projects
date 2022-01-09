@@ -4,6 +4,8 @@ Git Bash is an emulator that allows you to interact with Git just like you would
 
 git Process Diagram: ![git Process Diagram](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/git%20Block%20Diagram.png)  
 
+Select Soft Wrap:![GitHub 01](https://github.com/MrMikey59/00---Projects/blob/master/Git%20%26%20GitHub/GitHub%2001.png)  
+
 #### Resources related to GitHub:
 
 * [git](https://gitforwindows.org)
