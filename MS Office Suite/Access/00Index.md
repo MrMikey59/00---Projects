@@ -11,7 +11,7 @@ Access calls:
 ## Application Examples
 
 #### Quit the Application
-```vba
+```vbscript
 This procedure is to be used only on the main form (switchboard)
 Private Sub cmdQuitApp_Click()
 On Error GoTo Err_cmdQuitApp_Click
@@ -25,3 +25,21 @@ Err_cmdQuitApp_Click:
 End Sub
 ```
 
+#### Testing Objects
+```vbscript
+Sub WishVBAHadOverloads(ByVal Obj As Object)
+  If TypeOf Obj Is TableDef Then 
+    Dim Def As TableDef
+    Set Def = Obj
+    ' work with Def... 
+    Exit Sub
+  End If
+  If TypeOf Obj Is Form Then 
+    Dim Frm As Form
+    Set Frm = Obj
+    ' work with Frm... 
+    Exit Sub
+  End If
+  Err.Raise 999, "WishVBAHadOverloads", "Bad argument type - expected a TableDef or Form"
+End Sub 
+```
