@@ -30,10 +30,10 @@ var LinkTest = new RegExp("\\.("+<FileList>t+")$","i");
 ## FSO Properties & Methods
 | Property/Method | Description |
 | ---- | ---- |  
-| CopyFile | ---- |  
+| CopyFile | ---- |  
 | CreateTextFile | ---- |  
 | FileExists(<FileName>) | ---- |  
-| FolderExists(<FolderName>) | ---- |  
+| FolderExists(<FolderName>) | ---- |  
 | GetFile | |  
 
 ## File Object Properties & Methods
