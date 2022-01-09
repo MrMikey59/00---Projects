@@ -2,7 +2,7 @@
 
 ## Access Forms Object
 
-Access Forms Object ![Access Forms Object](https://github.com/MrMikey59/00---Projects/blob/master/Access/Access%20Forms%20Object.png)
+Access Forms Object ![Access Forms Object](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/Access%20Forms%20Object.png)
 
 ## Forms Properties
 
@@ -41,19 +41,19 @@ End Sub
 #### Hide the Access Window
 Use a blank form as a block for the Access Window. The **DoCmd.Maximum** makes it cover the entire screen – and blocks the task bar view (a 2nd screen allows it to be accessed, as may virtual monitors!) The bypass key is operational to make any changes that may be necessary. The Main form is Modal to prevent access to the Start (blank) form. Navigation & Windows controls are removed to prevent any other access method! This effectively blocks access to the database objects except through the Main form.  
 
-The Hide Access Window VBE Script ![Hide Access Window Script](https://github.com/MrMikey59/00---Projects/blob/master/Access/Hide%20Access%20Window%20Script.jpg)
+The Hide Access Window VBE Script ![Hide Access Window Script](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/Hide%20Access%20Window%20Script.jpg)
 
 ###### frmStart  
 This is a BLANK Form.  
 Property Settings:  
-![frmStart Properties 1](https://github.com/MrMikey59/00---Projects/blob/master/Access/frmStart%20Properties%201.png)  
-![frmStart Properties 2](https://github.com/MrMikey59/00---Projects/blob/master/Access/frmStart%20Properties%202.png)
+![frmStart Properties 1](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/frmStart%20Properties%201.png)  
+![frmStart Properties 2](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/frmStart%20Properties%202.png)
 
 ###### frmMain  
 The menu/start form  
 Property Settings:  
-![frmMain Properties 1](https://github.com/MrMikey59/00---Projects/blob/master/Access/frmMain%20Properties%201.png)  
-![frmMain Properties 2](https://github.com/MrMikey59/00---Projects/blob/master/Access/frmMain%20Properties%202.png)  
+![frmMain Properties 1](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/frmMain%20Properties%201.png)  
+![frmMain Properties 2](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/frmMain%20Properties%202.png)  
 
 #### Requery when Selected
 ```vba

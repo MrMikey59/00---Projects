@@ -6,5 +6,5 @@
 
 **ToolTips**: Display next to the selected item in the AutoComplete list and provide a description to help you find exactly what you are looking for so you can get it right the first time.
 
-The Expression Builder ![Expression Builder](https://github.com/MrMikey59/00---Projects/blob/master/Access/Expression%20Builder.png)  
+The Expression Builder ![Expression Builder](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/Expression%20Builder.png)  
 

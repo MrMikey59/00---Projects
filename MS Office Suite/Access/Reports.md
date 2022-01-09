@@ -2,12 +2,12 @@
 
 |Action | Icon |
 | --- | :---: |
-|Print the report| ![Print Report](https://github.com/MrMikey59/00---Projects/blob/master/Access/Print%20Icon.gif) |
-|Zoom into a region of the report| ![Report Zoom](https://github.com/MrMikey59/00---Projects/blob/master/Access/Report%20Zoom.gif) |
-|Display the report as one, two or multiple pages| ![Page Display Format](https://github.com/MrMikey59/00---Projects/blob/master/Access/Display%20Selection.gif) |
-|Zoom into or out of the report| ![Zoom Level](https://github.com/MrMikey59/00---Projects/blob/master/Access/Zoom%20Level.gif) |
-|Transfer the report into MS Word| ![Transfer to Word](https://github.com/MrMikey59/00---Projects/blob/master/Access/Word%20Transfer.gif) |
-|Close the report| ![Close](https://github.com/MrMikey59/00---Projects/blob/master/Access/Close.gif) |
+|Print the report| ![Print Report](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/Print%20Icon.gif) |
+|Zoom into a region of the report| ![Report Zoom](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/Report%20Zoom.gif) |
+|Display the report as one, two or multiple pages| ![Page Display Format](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/Display%20Selection.gif) |
+|Zoom into or out of the report| ![Zoom Level](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/Zoom%20Level.gif) |
+|Transfer the report into MS Word| ![Transfer to Word](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/Word%20Transfer.gif) |
+|Close the report| ![Close](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Access/Pics/Close.gif) |
 
 
 ## Example Code
