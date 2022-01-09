@@ -98,3 +98,16 @@ Make a commandlet to run your HTA.
   gpupdate \force
 ```
 
+## A Program Cannot Be Run in DOS Mode
+If you see the error message "This program cannot be run in DOS mode," then do the following:
+1.	Open the MS-DOS shell or Command Prompt window.
+2.	Right-click the title bar.
+3.	Select Properties.
+4.	Choose the Program tab.
+5.	Click the Advanced button.
+6.	Ensure that the item "Prevent MS-DOS-based programs from detecting Windows" is not selected.
+7.	Select OK.
+8.	Select OK again.
+9.	Exit the MS-DOS shell.
+10.	Restart your computer.
+

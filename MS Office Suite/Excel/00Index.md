@@ -61,6 +61,10 @@ End Sub
 | Start Excel in Safe Mode|Hold CTRL key and click on Excel icon <br> In the Windows Start Menu’s Search Box, type Excel /s and enter. |  
 | Set Number to minimum number of displayed digits|Select cell(s). Expand Number from the Home Ribbon (click arrow). Select Custom then add #,#00 in Type field for a minimum of two digit display with optional comma separation for larger numbers. <br> ![Process 01](https://github.com/MrMikey59/00---Projects/blob/master/MS%20Office%20Suite/Excel/Pics/Process%2001.png) |  
 
+### Set Default Font
+1.	Open the "Options" dialog box. Click on Office icon, then click on “Excel Options” button at bottom of menu. This opens the Options dialog box in which you can change the default attributes of your workbook.
+2.	Change the default font. Click the "Popular" tab and then “when Creating New Workbooks” section, select font and font size desired. Note: This only applies to newly created spreadsheets, and a restart of Excel is required to affect these changes.
+
 # Script Examples
   
 ### Create a File Based on Spreadsheet Information
