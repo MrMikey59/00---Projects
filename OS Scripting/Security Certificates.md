@@ -18,4 +18,5 @@ Open the personal certificate store and delete the old/expired certificate.
 1. Start > run > MMC > select add snap-in > select certificates > Select local computer  
 2. Expand Certificates, expand Personal, click ‘Certificates’ inside Personal  
 3. Right click the certificate you’d like to remove and click delete  
+![Certificate in MMC](https://github.com/MrMikey59/00---Projects/blob/master/OS%20Scripting/Certificate%20in%20MMC.png)
 
