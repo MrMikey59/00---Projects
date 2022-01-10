@@ -8,6 +8,7 @@ scheme://host.domain [:port]/path/ filename
 | Scheme | Description | Examples |  
 | ---- | ---- | ---- |  
 | cache | retrieves the cached version of a website <br> **Note**: Google must be3 set as your search engine for the browser you are using. |    |    
+| chrome: | Google Chrome Browser Link |  |  
 | file | a file on your local system |     |     
 | ftp: | File Transfer Protocol | ---- |  
 | gopher | a file on a Gopher server |   |   
