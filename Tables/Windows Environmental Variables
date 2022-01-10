@@ -1,7 +1,0 @@
-# Windows ENvironmental Variables
-
-| Variable | Description |
-| ---- | ---- |
-| %APDATA% | Current Users's Application Data Storage (Local, LoclaLow & Roaming) |
-| %PATH% | The Windows search path for executable files as a comma separated list of folders. |
-

@@ -9,14 +9,16 @@ scheme://host.domain [:port]/path/ filename
 | ---- | ---- | ---- |  
 | cache | retrieves the cached version of a website <br> **Note**: Google must be3 set as your search engine for the browser you are using. |    |    
 | chrome: | Google Chrome Browser Link |  |  
-| file | a file on your local system |     |     
+| file:/ | a file on your local system |     |     
 | ftp: | File Transfer Protocol | ---- |  
 | gopher | a file on a Gopher server |   |   
 | http: <br> https: | Hypertext Transfer Protocol | ```myRE=new RegExp("^https","i"); ``` <br> ```var myHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");```|  
-| mailto: | ---- | ---- |  
+| mailto: | Open Mail Client  | `mailto:someone@somewher.org[?subject=<SubjectLineString>`  |  
 | news | a Usenet newsgroup |    |    
+| shell: |  |  |  
 | ssh: | ---- | ---- |  
 | ssl: | ---- | ---- |  
+| tel: | Telephony Link |  |  
 | telnet: | a connection to a Telnet-based service | ---- |  
 | WAIS | a file on a WAIS server |   |  
 
