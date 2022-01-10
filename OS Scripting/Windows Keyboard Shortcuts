@@ -4,8 +4,7 @@
 | -- | -- |  
 | Closes the current Window|[ALT] + [F4]  |  
 | Capture Active Window as Picture; Alternate - use Snipping Tool for segments of the screen|[ALT] + [PRINT SCRN]   |  
-| Cycles through the buttons on the Task Bar. Works even if Aero isn't working on your computer. |[ALT] + [TAB]  |  
-| [WINDOWS] + [TAB]   |  
+| Cycles through the buttons on the Task Bar. Works even if Aero isn't working on your computer. |[ALT] + [TAB] <BR> [WINDOWS] + [TAB] |  
 | Copy selection to clipboard|[CTRL] + [C]  |  
 | Open the print dialog|[CTRL] + [P]   |  
 | Paste from clipboard|[CTRL] + [V]  |  
@@ -34,5 +33,5 @@
 | Displays all the open windows in an "album" sorter view. Hold down the [WINDOWS] button and press [TAB] to cycle through the various windows.|[WINDOWS] + [TAB]   |  
 | Maximize active Window|[WINDOWS] + [UP ARROW]  |  
 | Restore all minimized windows on the desktop (Not on Win7)|[WINDOWS] + [SHIFT] + [M]  |  
-| Opens Snipping Tool with save to OneNote|[WINDOWS] + [SHIFT] + [S]  |  
+| Opens Snipping Tool with save to OneNote|[WINDOWS] + [SHIFT] + [S] |  
 
