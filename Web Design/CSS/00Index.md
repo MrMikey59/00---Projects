@@ -57,7 +57,6 @@ p {
 The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/master/CSS/CSS%20Box%20Model.png)  
 **Note**: The visible width of the box is determined by adding together the content width, the padding and the border.
 
-
 ## CSS Constants
 |Constants|Description|Value|Type |
 | --- | --- | --- | --- |  
@@ -117,7 +116,6 @@ The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/mast
 | lowercase|||text-transform |
 | uppercase|||text-transform |
 
-
 ## CSS Selectors
 | Selector | Description | Example |  
 | --- | --- | --- | 
@@ -133,10 +131,44 @@ The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/mast
 | Element with Pseudo-Element/Psuedo-Class |  | `P:first-line` |
 | Combinations |  | `H1.ClassName, P SPAN` |
 | Comments |  | `/* <Message> */` |
-| Psuedo Class |  | `Hover` <BR> `active` <BR> `focus` <BR> `link` <BR> `visited` <BR> `lang()` |
-| Psuedo Elements |  | `first-letter` <BR> `first-line` <BR> `first-child` |
-|  |  | `` |
 
+### Pseudo Selectors
+| Selector | Description | Example |  
+| --- | --- | --- |  
+| :active |  |  |  
+| :after |  |  |  
+| :before  |  |  |   
+| :checked  |  |  |   
+| :disabled  |  |  |   
+| :enabled  |  |  |   
+| :first-child  |  |  |   
+| :first-letter  |  |  |   
+| :first-line  |  |  |   
+| :focus  |  |  |   
+| :hover  |  |  |   
+| :link  |  |  |   
+| :not(<Selector>)  |  |  |   
+| :nth-of-type(\<IndexNumber> \| even \| odd)  |  | `#table1 .col:nth-child(even)` |   
+| :visited |  |  |  |  
+
+## Adapting to Media Size
+```html
+/*  Mobile  */
+@media screen (max-width: 767px) {
+  <Adaptive CSS Script>
+}
+/*  Tablet  */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  <Adaptive CSS Script>
+}
+/*  Tablet and Laptop/Desktop  */
+@media screen and (min-width: 768px) {
+  <Adaptive CSS Script>
+}
+/*   Laptop/Desktop  */
+@media screen and (min-width: 1200px) {
+}
+```
 
 ## CSS Examples
 
@@ -176,4 +208,16 @@ H1 {
 -	[Circles.css](https://github.com/MrMikey59/00---Projects/blob/master/CSS/Circles/css/circle.css)
 
 A CSS package for creating circle representations with percentages of completion.
+
+#### Simple.css
+
+| Area | List | 
+| -- | -- |  
+| GENERAL | .centered  <BR> .clearall <BR> .floatleft <BR> .floatright <BR> .hidden <BR> .middle  |  
+| Background Color | .black  <BR> .white  <BR> .red  <BR> .green  <BR> .blue  |  
+| Borders | .rounded-corners <BR> .shadow |  
+| Margins & Padding | .margins0 <BR> .margins5 <BR> .padding0 <BR> .padding5 |  
+| Text Color | .blacktext  <BR> .whitetext  <BR> .redtext  <BR> .greentext  <BR> .bluetext |  
+| Text Style | .lowercase <BR> .uppercase <BR> .monospace <BR> .textcenter  <BR> .textitalic <BR> .textleft  <BR> .textright  <BR> .textstrong |  
+| Vertical Alignment | .vabottom <BR> .vamiddle <BR> .vatop |  
 
