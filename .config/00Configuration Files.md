@@ -7,6 +7,7 @@ Configuration files automate the setup of GitHub, Git, VS Code and it's Extensio
 | --- | --- | :---: |  
 | .editorconfig | Diverse editor config (for various TEs & IDEs) |   |  
 | .eslintignore | Ignored files for eslint linting & checks | Y |  
+| .githubattributes |  |  |  
 | .gitignore | Specifies any files/folders to NOT commit onto GitHub | Y |  
 | .package.json | Project-wide metadata (Workspaces & Project-wide packages) <br> the manifest file in which you declare your extension and command. The sample plugin registers a command and defines its title and command name. With this information VS Code can show the command in the command palette. It doesn’t yet need to load the plugin. |  |  
 | .prettierignore | Ignored files for prettier | Y |  
