@@ -33,7 +33,6 @@
 |XSL|eXtensible Stylesheet Language|
 |XMLNS|XML Namespace|
 
-
 ## Medical Degrees and Certifications
 
 | Acronym | Decsription |  
