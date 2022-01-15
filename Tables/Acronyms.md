@@ -3,9 +3,12 @@
 | Acronym | Description | 
 | ---- | ---- | 
 |AMA| Against Medical Advice |
+|COM| Component Object Model |  
 |CRL|Certificate Revocation List|
 |CTL|Certificate Trust List|
 |CWIS|Campus-Wide Information System|
+|DOM| Docunent Object Model |  
+|DTD| Document Type Definition |  
 |HTTP|HyperText Transfer Protocol|  
 |IDLE| Integrated DeveLopment Environment |  
 |IE| Internet Explorer |  

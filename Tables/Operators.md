@@ -60,6 +60,7 @@ Parentheses > Exponents > Multiplication > Division > Addition > Subtraction
 | ==|Comparison operator|Evaluates to true if the operands are equal | Y | Y |  
 | >|Comparison operator|Evaluates to true if the left operand is greater than the right operand | Y | Y |  
 | >=|Comparison operator|Evaluates to true if the left operand is greater than or equal to the right operand | Y | Y |  
+| typeOf |Comparison operator| Returns a string indicating the type of the operand | Y |  
 | !|Logical operator|Not: Evaluates to true if the operand is false and to false if the operand is true| Y |   |  
 | &&|Logical operator|And: Evaluates to true when both operands are true| Y |  |  
 | \|\||Logical operator|Or: Evaluates to true when either operand is true| Y |  |  
