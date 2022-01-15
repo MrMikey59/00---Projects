@@ -2,6 +2,8 @@
 
 This folder contains CSS notes, snippets and example code.
 
+CSS seems deceptively straightforward, but there are many challenges when trying to style an app perfectly for all browsers and all screen sizes. CSS-Grid and Flexbox are tools that have been developed to make the job a little more structured and more reliable. Learn about these tools by playing [Flexbox Froggy](https://flexboxfroggy.com/) and [Grid Garden](https://codepip.com/games/grid-garden/).
+
 CSS is a container of Rules that modify the browser display of elements.
 
 The Rule: Each rule has exactly two parts:
@@ -72,17 +74,6 @@ The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/mast
 | outset|||border-style |
 | ridge|||border-style |
 | solid|Default||border-style |
-| aqua|||color |
-| black||#000000|color |
-| blue||#0000FF|color |
-| gray||#808080|color |
-| green||#00FF00|color |
-| navy|||color |
-| purple|||color |
-| red||#FF0000|color |
-| silver||#C0C0C0|color |
-| white||#FFFFFF|color |
-| yellow|||color |
 | block|override for inline elements||display |
 | inline|override for block elements||display |
 | list-item|||display |

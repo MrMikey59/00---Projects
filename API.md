@@ -1,5 +1,8 @@
-# Application Program Interface (API)
+# Application Program Interface (API)  
 #### or How to access Dynamic Link Libraries (DLLs)!
+
+- 🤖 [Abstract API](https://www.abstractapi.com)
+- 🤖 [RapidAPI](https://www.rapidapi.com)
 
 # Dynamic Link Libraries (DLLs)
 Place these API declarations and Constants at the top of your Form in the General Declarations area.

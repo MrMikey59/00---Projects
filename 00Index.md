@@ -7,7 +7,16 @@ The following Tables are available:
   - Namespace
   - Pytho Packages
   - Special Characters
-  - Windows Drive Types
+  - Windows Drive Types  
+
+### Links to Check Out
+- https://github.com/microsoft/Web-Dev-For-Beginners/tree/main/5-browser-extension/1-about-browsers
+- https://www.webdevsimplified.com 
+- https://github.com/WebDevSimplified 
+- [<CDNJS>](https://cdnjs.com/) https://github.com/cdnjs/cdnjs 
+- https://github.com/olivierloverde/minutes-of-javascript  
+- https://github.com/markodenic/web-development-resources  
+- https://github.com/devalot/webdev/tree/master/content/js  
 
 # Notes
 
