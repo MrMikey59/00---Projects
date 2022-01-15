@@ -5,6 +5,11 @@
   - [ChromeDriver](https://sites.google.com/chromium.org/driver/)  
       ChromeDriver is a standalone server that implements the W3C WebDriver standard. ChromeDriver is available for Chrome on Android and Chrome on Desktop (Mac, Linux, Windows and ChromeOS).
 
+- [PC Mag](www.pcmag.com/)   
+- [WC3 Schools](https://w3schools.sinsixx.com/)  
+- [World Wide Web Organization](www.w3.org)  
+- [World Wide Web Consortium (W3C)](www.w3c.org)   
+
 | HTML | CSS | Script |
 | ---- | ---- | ---- |
 | ```<label>Load CSV file: </label><input type="file" id="fileInputCSV" /><br/>``` | | ```var fileInputCSV = document.getElementById('fileInputCSV');```<BR>``` fileInputCSV.addEventListener('change', function (e) { ```<BR>```<ProccessFile>```<BR>``` } ```|
