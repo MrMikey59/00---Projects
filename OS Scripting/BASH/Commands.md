@@ -7,9 +7,11 @@ Typical Bash Prompt: `$`
 | cat \<FileName> | List contents of the file. |  
 | cd \<Path> | change directory |  
 | clear | Clears the terminal |  
+| code [ . \| \<FileName> ] | Open current file or named file in VS Code |  
 | history | list history of commands used in current session <BR> Use `!<Number>` to execute a previous commend. <BR> Use `!-<Number>` to execute a previous command by reverse link <BR> Use `!!` to execute the most recent command. Try `sudu !!` to run a previous command as as a super user instead. <BR> Use `!$` to reuse the previous arguments. <br> Use `!^` to reuse just the first argument in the previous commnad <br> `-c` clears the cache of commands |  
 | ls | List structure (folder) contents <BR> ` ls -a` - shows in wide mode <BR> `-la` List all with attributes |  
-| md \<Path> | Make a new directory |  
+| md \<Path> <BR> mkdir | Make a new directory |  
+| nano \<FileName> | Open file in Nano editor |  
 | rm -f \<Path> | remove directory |  
 | rm \<FileName> | Remove File(s) |  
 | SSH-KeyGen | Create a Secure Shell (SSH) Key <BR> ![SSH-KeyGen](https://github.com/MrMikey59/00---Projects/blob/master/OS%20Scripting/BASH/SSH-KEYGEN.png) |  .
