@@ -1,12 +1,36 @@
 # Browsers
 
+A crucial tool is the browser. Web developers rely on the browser to observe how their code runs on the web, it's also used to view visual elements of a web page that are written in the editor, like HTML.  
+Many browsers come with *developer tools* (DevTools) that contain a set of helpful features and information to assist developers to collect and capture important insights about their application. For example: If a web page has errors, it's sometimes helpful to know when they occurred. DevTools in a browser can be configured to capture this information.   
+
+### Popular Browsers and DevTools  
+- [Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium?WT.mc_id=academic-13441-cxa)   
+- [Chrome](https://developers.google.com/web/tools/chrome-devtools/)  
+- [Firefox](https://developer.mozilla.org/docs/Tools)  
+
 #### Short Link?
 Use 'Preview' with a short link and reduce your exposure:  
 ```html
 http://preview.<tinyURL>/ (remove the extra space)
 ```
 
-## CrEdge (Microsoft)
+# Chrome (Google)  
+
+### Chrome Extensions
+* 🔖 [Accessibility Insights for Web](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni)
+* 🔖 [Colorblindly](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg)
+* 🔖 [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg)
+* 🔖 [CSSViewer](https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce)
+* 🔖 [Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj)
+* 🔖 [JSONView](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+* 🔖 [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+* 🔖 [Lorem Ipsum Generator](https://chrome.google.com/webstore/detail/lorem-ipsum-generator/pglahbfamjiifnafcicdibiiabpakkkb)
+* 🔖 [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi)
+* 🔖 [VisBug](https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc)
+* 🔖 [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
+* 🔖 [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)  
+
+# CrEdge (Microsoft)
 Microsoft Edge is a modern web browser designed for faster, safer browsing on Windows 10 based on the Google Chromium browser engine. Get more done on the web with built-in tools for notetaking, reading and more. 
 
 #### Save tabs for later
@@ -49,4 +73,6 @@ iexplore.exe [-private] [URL]
 ```
 
 **InPrivate** browsing is a private browsing mode in which no browsing history, download history, cookies and site data, and form fill data are remembered. Microsoft Edge saves downloaded files as well as any new favorites created while browsing InPrivate. By default, while browsing InPrivate, Microsoft does not collect any info about websites you visit for product improvement purposes. Your school, workplace, or internet service provider may still be able to see your browsing activity. Browsing data for the specific InPrivate session is cleared after all InPrivate windows are closed.
+
+# FireFox (Mozilla)  
 
