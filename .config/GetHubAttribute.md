@@ -27,16 +27,31 @@
 *.7z filter=lfs diff=lfs merge=lfs -text
 *.br filter=lfs diff=lfs merge=lfs -text
 *.gz filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
 *.tar filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 
+# Configuration Files
+*.cfg text
+*.ini text
+*.log text
+*.theme text
+*.xml text
+*.{yml, yaml} text
+
 # Documents
+*.epub binary
+*.docx binary
+*.fb2 text
+*.md text
 *.pdf filter=lfs diff=lfs merge=lfs -text
+*.rst text
+*.txt text
 
 # Images
 *.gif filter=lfs diff=lfs merge=lfs -text
-*.ico filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
+*.{ico, icon} filter=lfs diff=lfs merge=lfs -text
+*.{jpeg, jpg} filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.webp filter=lfs diff=lfs merge=lfs -text
@@ -44,61 +59,19 @@
 # Fonts
 *.woff2 filter=lfs diff=lfs merge=lfs -text
 
-# Other
-*.exe filter=lfs diff=lfs merge=lfs -text
-```
-
-## Archives  (Binary)
-```text
-*.7z binary filter=lfs diff=lfs merge=lfs -text
-*.br binary filter=lfs diff=lfs merge=lfs -text
-*.gz binary filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
-*.tar binary filter=lfs diff=lfs merge=lfs -text
-*.zip binary filter=lfs diff=lfs merge=lfs -text
-```
-
-## Documents
-```text
-*.epub    binary
-*.docx    binary
-*.fb2     text
-*.md      text
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.rst     text
-*.txt     text
-```
-
-## Images
-```text
-*.gif filter=lfs diff=lfs merge=lfs -text
-*.ico filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
-*.webp filter=lfs diff=lfs merge=lfs -text
-```
-
-## Script Languages
-```text
-*.coffee  text
-*.js      text
-*.py  text diff=python
-*.pyj  text diff=python
-*.recipe  text diff=python
-```
-
-### OS Executables
-```text
+# OS Executables
 *.{bat,[bB][aA][tT]} text eol=crlf
 *.{cmd,[cC][mM][dD]} text eol=crlf
 *.exe filter=lfs diff=lfs merge=lfs -text
 *.sh      text eol=crlf
-```
 
-## Web Development
-```text
+# Script Languages
+*.coffee  text
+*.js      text
+*.{[}py, pyj}  text diff=python
+*.recipe  text diff=python  
+
+# Web Development
 *.css     text
 *.htm     text
 *.html    text
@@ -109,14 +82,13 @@
 *.xsl     text
 ```
 
-## More GHA Exampess
+## More GHA Examples
 ```text
 # Tell git what files are txt
 *.pot     text
 *.po      text
 *.session text
 *.cfg     text
-*.yaml    text
 *.tmpl    text
 *.qrc     text
 
@@ -140,5 +112,17 @@ resources/content-server/index-generated.html linguist-generated=true
 resources/editor.js linguist-generated=true
 resources/viewer.js linguist-generated=true
 resources/viewer.html linguist-generated=true
+
+# GitHub linguist ignores markdown files by default, but TL;DR-pages
+# are mostly markdown, so we explicitly make the pages detectable
+pages*/**/*.md linguist-detectable=true
+pages*/**/*.md linguist-documentation=false
+
+*.py diff=python
+
+.gitattributes export-ignore
+.gitmodules export-ignore
+.gitignore export-ignore
+
 ```
 

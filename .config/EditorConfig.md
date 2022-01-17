@@ -23,7 +23,11 @@ Special characters can be escaped with a backslash so they won't be interpreted 
 
 Simple Sample .editorconfig  
 ```
+# Is this the top-most EditorConfig file
 root = true
+
+# Set Character Set
+charset = utf-8
 
 # Defaults for All Files
 [*]
@@ -34,14 +38,34 @@ indent_size = 2
 insert_final_newline = true
 trim_trailing_whitespace = true
 
+# For Brew Files
+[Brewfile]
+insert_final_newline = false
+
+# Make Files
+[{Makefile, **.mk}]
+# Use tabs for indentation (Makefiles require tabs)
+indent_style = tab
+
 # For Markdown Files
-[*.md]
+[*.{md, markdown}]
 max_line_length = off  
 trim_trailing_whitespace = false  
 
-# Settings for Programing languages
+# For Programing languages
 [*.{js,py,ts,vb}]
 charset = utf-8
+
+# For Python Files
+[*.py]
+indent_size = 4
+
+# For YAML Files
+[*{.yml,.yaml}]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
 ```
 
 ## .editorconfig file supports the following file types:

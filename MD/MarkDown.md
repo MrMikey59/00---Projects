@@ -70,7 +70,8 @@
      2. Sub list
 
 ## Links
-- [I'm an inline-style link](https://www.google.com)
+- Quick Link (Inline): `[Google](https://www.google.com)`  
+- Quick Link (Same Directory):	`[CONTRIBUTING.md](CONTRIBUTING.md)`  
 
 ## Images
 - Images are converted to png/jpg and linked as local image files.

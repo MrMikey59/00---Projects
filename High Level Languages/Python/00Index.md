@@ -84,7 +84,7 @@ Operating System (Included): Some of the more useful parts of the os module are 
 http://www.stsci.edu/resources/software_hardware/pyfits 
 
 #### [PyPi](https://pypi.org/)  
-
+  * [Bbfreeze](http://pypi.python.org/pypi/bbfreeze)
   * [requests](https://pypi.org/project/requests/) 
   * [PyVirtualDisplay](https://pypi.org/project/PyVirtualDisplay/) 
   * [selenium](https://pypi.org/project/selenium/)
