@@ -10,12 +10,17 @@ Developers rely on editors for a few additional reasons:
 - **Extensions and Integrations** Additions that are specialized for developers, by developers, for access to additional tools that aren't built into the base editor. For example, many developers also need a way to document their code and explain how it works and will install a spell check extension to check for typos. Most of these additions are intended for use within a specific editor, and most editors come with a way to search for available extensions.  
 - **Customization** Most editors are extremely customizable, and each developer will have their own unique development environment that suits their needs. Many also allow developers to create their own extensions.   
 
-### Popular Editors and Web Development Extensions
+### Popular Editors and Web Development Extensions  
+
+- [Atom](https://atom.io/)  
+  - [Atom at GitHub](https://github.com/atom/atom) 
+  - [Atom Docs]( https://atom.io/docs) 
+  - [atom-beautify](https://atom.io/packages/atom-beautify)  
+  - [Flight Manual](https://flight-manual.atom.io) 
+  - [spell-check](https://atom.io/packages/spell-check)  
+  - [teletype](https://atom.io/packages/teletype)  
+
 - [Visual Studio Code](https://code.visualstudio.com/)  
   - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)  
   - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)  
   - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)  
-- [Atom](https://atom.io/)  
-  - [spell-check](https://atom.io/packages/spell-check)  
-  - [teletype](https://atom.io/packages/teletype)  
-  - [atom-beautify](https://atom.io/packages/atom-beautify)  

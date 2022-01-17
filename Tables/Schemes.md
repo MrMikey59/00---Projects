@@ -11,6 +11,7 @@ scheme://host.domain [:port]/path/ filename
 | chrome: | Google Chrome Browser Link |  |  
 | file:/ | a file on your local system |     |     
 | ftp: | File Transfer Protocol | ---- |  
+| git: | Access the Remote Repository  | `git://deluge-torrent.org/deluge.git` |  
 | gopher | a file on a Gopher server |   |   
 | http: <br> https: | Hypertext Transfer Protocol | ```myRE=new RegExp("^https","i"); ``` <br> ```var myHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");```|  
 | mailto: | Open Mail Client  | `mailto:someone@somewher.org[?subject=<SubjectLineString>`  |  

@@ -1,5 +1,15 @@
 # Referenecing in HTML
 
+
+### A Quick Example
+| Method | Example |  
+| --- | --- |  
+| In same directory | `<script src="index.js"></script>` <BR> `<link rel="stylesheet" type="text/css" href="style.css">` <BR> `<link rel="icon" type="image/png" href="favicon.png" />` |  
+| In a subdirectory | `<script src="scripts/index.js"></script>` <BR> `<link rel="stylesheet" type="text/css" href="css/style.css">` <BR> <`link rel="icon" type="image/png" href="icons/favicon.png" /> ` |  
+| From CDN | `<link href="//jsonlint.com/bsa-common.css" rel="stylesheet">` <BR> `<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>` <BR> `<script type="text/javascript" defer src="//jsonlint.com/bsa-common.js"></script>` |  
+| Inline | `<script type="text/javascript"> </script>` <BR> `<style type="text/css">…</style>` |  
+
+
 You can include either a full path or a relative path to your file. An image tag containing a full path to a file called smiley.gif might read 
 ```html
 <IMG SRC="../pub/www/users/cwilde/art/smiley.gif"> .

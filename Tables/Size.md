@@ -18,3 +18,13 @@
 | ex | ex height | Relative | the height of the lower-case “x” character in a font |
 
 Note: Under some circumstances, relative font values can combine and multiply, producing bizarre results indeed.
+
+# Video 
+
+| Format | Size |  
+| --- | --- |  
+| 1080p | 1920x1080 |  
+| 720p | 1280x720 |  
+| 480p | 842x480 |  
+| 360p | 640x360 |  
+Encoding: acc/x264/xvid

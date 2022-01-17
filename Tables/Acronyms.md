@@ -2,7 +2,9 @@
 
 | Acronym | Description | 
 | ---- | ---- | 
-|AMA| Against Medical Advice |
+|2FA| Two-Factor Authentication | 
+|AMA| Against Medical Advice |  
+|ASIN| Amazon Store Identification Number | 
 |COM| Component Object Model |  
 |CRL|Certificate Revocation List|
 |CTL|Certificate Trust List|
@@ -18,13 +20,17 @@
 |MODS|Metadata Object Description Schema|
 |NaN| Not a Number |  
 |ODBC|Open DataBase Connectivity |
+|OSS| Open Source Software|  
+|PR| Pull Request (git) |  
 |PWA|Progressive Web Application|
 |Py| Python |  
 |RWD|Responsive Web Design|
 |SAE|Simultaneous Authentication of Equals|
 |SCM|Source Control Management|  
-|SOAP|Simple Object Access Protocol|
+|SOAP|Simple Object Access Protocol|  
+|SSH| Secure Shell |  
 |TCL|Tool Command Language|  
+|TL;DR| Too Long; Didn't Read |  
 |VB| Visual Basic |  
 |VBA| Visual Basic for Applications |  
 |VBS| Visual Basic Script |  
