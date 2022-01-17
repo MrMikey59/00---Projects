@@ -110,18 +110,19 @@ The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/mast
 ## CSS Selectors
 | Selector | Description | Example |  
 | --- | --- | --- | 
-| Universal |  | `*` |
-| Single Element |  | `H1` |
-| List of Elements | comma separated list | `H1, H2, H3` |
-| Attribute |  | `INPUT[type="text"]` |
-| Descendant |  | `P SPAN` |
-| Parent-Child |  | `BODY > P` |
 | Adjacent |  | `P + H3` |
+| At Character Set  |  | `@charset "ISO-8859-1";` |  
+| Attribute |  | `INPUT[type="text"]` |
 | Class |  | `.ClassName` |
-| ID |  | `#ElementID` |
-| Element with Pseudo-Element/Psuedo-Class |  | `P:first-line` |
 | Combinations |  | `H1.ClassName, P SPAN` |
-| Comments |  | `/* <Message> */` |
+| Comments |  | `/* <Message> */` |  
+| Descendant |  | `P SPAN` |
+| Element with Pseudo-Element/Psuedo-Class |  | `P:first-line` |
+| ID |  | `#ElementID` |
+| List of Elements | comma separated list | `H1, H2, H3` |
+| Parent-Child |  | `BODY > P` |
+| Single Element |  | `H1` |
+| Universal |  | `*` |
 
 ### Pseudo Selectors
 | Selector | Description | Example |  
@@ -141,6 +142,16 @@ The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/mast
 | :not(<Selector>)  |  |  |   
 | :nth-of-type(\<IndexNumber> \| even \| odd)  |  | `#table1 .col:nth-child(even)` |   
 | :visited |  |  |  |  
+
+## The Attribute Roadmaps
+| Attribut Roadmap | Examples
+| --- | --- |  
+| `align-items: [ center ];` | --- |  
+| `display: [ block | flex ];` | --- |  
+| `font-family: [ Arial ];` | --- |  
+| `justify-content: [ center ];` | --- |  
+| `position: [ absolute | relative ];` | --- |  
+| `text-decoration: [ none ];` | --- |  
 
 ## Adapting to Media Size
 ```html

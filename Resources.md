@@ -108,6 +108,7 @@
   - [License ](http://www.gnu.org/licenses/gpl.html)  
 - [OpenSource.org](http://www.opensource.org/)   
   - [MIT  License](http://www.opensource.org/licenses/mit-license.php)   
+- [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL)
 - [Unlicense](http://unlicense.org)  
 
 ## Markdown
