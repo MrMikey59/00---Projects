@@ -21,6 +21,7 @@
 |NaN| Not a Number |  
 |ODBC|Open DataBase Connectivity |
 |OSS| Open Source Software|  
+|PEP| Python Enhancement Proposal | 
 |PR| Pull Request (git) |  
 |PWA|Progressive Web Application|
 |Py| Python |  

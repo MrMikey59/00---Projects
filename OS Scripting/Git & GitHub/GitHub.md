@@ -4,6 +4,8 @@
 - GitHub supports rendering tabular data in the form of CSV (comma-separated) values and TSV (tab-separated values) files.
 - GitHub supports rendering of PDF documents.
 - GitHub supports rendering of prose documents in the form of Markdown, AsciiDoc, Textile, ReStructuredText,  Rdoc, Org, Creole, MediaWiki, or Pod.
+- GitHub has started naming the default branch main instead of master to migrate away from biased terminology (more details available here).  
+- GitHub allows you to link multiple email addresses to your account. 
 
 ### Keyboard Shortcuts
 | Action | Shortcut | 
@@ -13,8 +15,13 @@
 
 ### Resources
 - [Codespaces](https://github.com/features/codespaces)  
-- [GitHub Desktop](https://desktop.github.com/)  
-- [GitHub Lab (Training)](https://lab.github.com/)  
+- [GitHub]( https://github.com/) 
+  - [GitHub Desktop](https://desktop.github.com/) 
+  - [GitHub Help]( https://help.github.com)  
+  - [GitHub Learning Lab](https://lab.github.com/)  
+  - [GitHub Watchs](https://github.com/watching) 
+- [Homebrew](https://brew.sh/) – installer for Mac & Linux
+- [NSIS](http://nsis.sourceforge.net/Download)
 
 ## Processes
 

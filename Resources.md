@@ -1,6 +1,6 @@
 # Resources
 
-- [Amazon (Smile)](https://smile.amazon.com/)  
+- [Amazon](https://www.amazon.com/) or [Amazon (Smile)](https://smile.amazon.com/)  
   - [Best Selling/Free Books](https://www.amazon.com/gp/bestsellers/digital-text/154606011/)  
   - [Classic Books Free](https://www.amazon.com/s/?node=2245146011)  
   - [Cloud Reader/](https://read.amazon.com/) <mailto:cloud-reader-feedback@amazon.com>  
@@ -11,6 +11,7 @@
 - [Free Software Foundation](http://www.fsf.org/)  
 - [Google](http://www.google.com/)   
   - [Add URL - SEO](http://www.google.com/addurl/)   
+  - [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) 
   - [Cloud: Natural Language](https://cloud.google.com/natural-language/)  
   - [FireBase](https://firebase.google.com/)  
   - [Picasa](http://www.google.com/picasa/)  
@@ -28,9 +29,14 @@
 - [Mozilla](http://www.mozilla.com/)   
   - [Firefox ](http://www.mozilla.com/firefox/)   
   - [GreaseMonkey Add-In ](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+- [OpenMoji](https://openmoji.org/) 
+- [Tablacus](https://tablacus.github.io/explorer_en.html) – portable tabbed file manager (WIN)
+  - [Documents](https://www.penflip.com/LightTempler/tablacus-explorer) 
+  - [Source Code](https://github.com/tablacus/TablacusExplorer)
 - [VideoLan (VLC)](http://www.videolan.org/)  
   - [AddOns](http://addons.videolan.org/)   
   - [VLC](http://www.videolan.org/vlc/)  C:\Users\%USERNAME%\AppData\Roaming\vlc  
+- [YouTube](https://www.youtube.com/)
 
 ## Books & Kindle
 - [Apprentice Alf ](http://apprenticealf.wordpress.com/) 
@@ -95,12 +101,14 @@
   - [JS Micro Templating](http://ejohn.org/blog/javascript-micro-templating/)   
 
 ## Licensing Software  
+[Choose a License]( https://choosealicense.com/) 
 - [Creative Commons License/](http://creativecommons.org/) 
   - [Attribution Non-Commercial 2.5/](http://creativecommons.org/licenses/by-nc/2.5/) 
--  [GNU](http://www.gnu.org/)   
+-  [GNU General Public License v3.0 License](http://www.gnu.org/)   
   - [License ](http://www.gnu.org/licenses/gpl.html)  
 - [OpenSource.org](http://www.opensource.org/)   
-  - [MIT  License](http://www.opensource.org/licenses/mit-license.php)  
+  - [MIT  License](http://www.opensource.org/licenses/mit-license.php)   
+- [Unlicense](http://unlicense.org)  
 
 ## Markdown
 - [GitHub GFM Markdown Guide](https://github.github.com/gfm/)
@@ -127,6 +135,11 @@
 - [SSH Information](https://www.ssh.com/academy/ssh/agent)  
 - [Use SSH Key on many Clients](https://serverfault.com/questions/170682/using-same-ssh-private-key-across-multiple-machines)  
 - [SSH for GitHub with Multiple Accounts](https://dev.to/arnellebalane/setting-up-multiple-github-accounts-the-nicer-way-1m5m)  
+
+## Torrent
+- [Deluge BitTorrent ](http://deluge-torrent.org) 
+  - [FAQs](http://dev.deluge-torrent.org/wiki/Faq) 
+  - [Forum](http://forum.deluge-torrent.org) 
 
 ## Windows
 - [.NET Framework Download](https://www.microsoft.com/net/download/framework)

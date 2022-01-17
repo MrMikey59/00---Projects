@@ -10,11 +10,14 @@
 |Fork| when you create your own copy of the entire project |  
 |Git Bash|an emulator that allows you to interact with Git just like you would on a Linux or Mac terminal|  
 |Methods|Functions associated to a class and used on an object|
-|Objects|an instance of the class|
-|Schemas|a set of 'types', each associated with a set of properties|
+|Neighbor Spoofing| spoofing your or a neighbors local phone number |  
 |Numbers|Use values from 0123456789 <br> (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) <br> Use '.' (Unicode 'FULL STOP' (U+002E)) |
+|Objects|an instance of the class|
 |Python Enhancement Proposal (PEP)| a design document providing information to the **Python** community, or describing a new feature for Python or its processes or environment; kinds of PEP: <br> - A Standards Track PEP describes a new feature or implementation for Python. It may also describe an interoperability standard that will be supported outside the standard library for current Python versions before a subsequent PEP adds standard library support in a future version. <br> - An Informational PEP describes a Python design issue, or provides general guidelines or information to the Python community, but does not propose a new feature. Informational PEPs do not necessarily represent a Python community consensus or recommendation, so users and implementers are free to ignore Informational PEPs or follow their advice. <br> - A Process PEP describes a process surrounding Python, or proposes a change to (or an event in) a process. Process PEPs are like Standards Track PEPs but apply to areas other than the Python language itself. They may propose an implementation, but not to Python's codebase; they often require community consensus; unlike Informational PEPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Python development. Any meta-PEP is also considered a Process PEP. |   
 |Repository| All the files and folders related to a project; gives you control of permissions and collaborators’ interaction with your code. |  
+|Schemas|a set of 'types', each associated with a set of properties|
+
+<HR>
 
 ## Phrases
 There is a phrase in French, “esprit d’escalier”, which literally means “stairway wit” and is used to refer to a witty remark a person thinks of too late to use in an encounter—a nod to how we often think of something great to say when we are taking the stairs to leave and it is too late to capitalize on our cleverness.  
