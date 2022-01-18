@@ -1,6 +1,10 @@
 # Index for HTML Folder
 
-This folder contains HTML notes, snippets ans examples.
+This folder contains HTML notes, snippets ans examples.  
+
+It’s invalid HTML to have an ID exist on more than one element.  
+
+Log event every time a link is activated:	`onClick= "LogEntry(<strLinkName>)"`
 
 ## Referencing File locations in HTML
 | File Location | Source Call |

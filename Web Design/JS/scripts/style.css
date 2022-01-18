@@ -1,0 +1,39 @@
+BODY {
+  background-color: #dfdfdf;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', serif;
+  font-size: 10px;
+  font-weight: normal;
+  margin: 0px;
+  margin-top: 0px;
+}
+H1 {
+  color: red;
+}
+#demo {
+  font-size: 20px;
+  background-color: #efefef;
+  text-align: center;
+}
+P.notes {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+.DisplayOff {
+  display: none;
+  visibility: hidden;
+}
+.noJS-warning{
+  background: #e34449;
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  left: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+ }

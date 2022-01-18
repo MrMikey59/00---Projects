@@ -1,0 +1,11 @@
+
+#box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background: #fcc;
+  font-size: 20px;
+}
+#fadecount {
+	font-size: 30px;
+}
