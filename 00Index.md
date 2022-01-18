@@ -13,7 +13,6 @@ The following Tables are available:
 - https://github.com/microsoft/Web-Dev-For-Beginners/tree/main/5-browser-extension/1-about-browsers
 - https://www.webdevsimplified.com 
 - https://github.com/WebDevSimplified 
-- [<CDNJS>](https://cdnjs.com/) https://github.com/cdnjs/cdnjs 
 - https://github.com/olivierloverde/minutes-of-javascript  
 - https://github.com/markodenic/web-development-resources  
 - https://github.com/devalot/webdev/tree/master/content/js  
@@ -28,6 +27,11 @@ Other Code Storage Sites:
 - [CodePlex](https://www.CodePlex.com/)
 - [SourceForge](http://www.sourceforge.net/)
 
+Programs to investigate:
+- NodeJS
+- NPM 
+
+[http://localhost:8100](http://localhost:8100)
 # Contents
 
 ### Information Resources
@@ -40,23 +44,4 @@ Other Code Storage Sites:
 - [HTML](https://github.com/MrMikey59/00---Projects/tree/master/HTML)
 - [JS](https://github.com/MrMikey59/00---Projects/tree/master/JS)
 - [VBS](https://github.com/MrMikey59/00---Projects/tree/master/VBS)
-
-## Handling Measurements
-
-#### Base for Modular Font Scale
-| Pixel(px) | EM(em) |  
-| --:| --: |  
-| 2 | 0.125 |  
-| 4 | 0.250 |  
-| 8 | 0.500 |  
-| 12 | 0.750 |  
-| 14 | 0.875 |  
-| 16 | 1.000 |  
-| 20 | 1.250 |  
-| 32 | 2.000 |  
-| 36 | 2.250 |  
-| 64 | 4.000 |  
-| 128 | 8.000 |  
-| 256 | 16.000 |  
-| 512 | 32.000 |  
 
