@@ -21,3 +21,6 @@
 ## UTF-8
 An [ASCII punctuation characters](https://github.github.com/gfm/#ascii-punctuation-character) is !, ", #, $, %, &, ', (, ), *, +, ,, -, ., / (U+0021–2F), :, ;, <, =, >, ?, @ (U+003A–0040), [, \, ], ^, _, ` (U+005B–0060), {, |, }, or ~ (U+007B–007E).
 
+| Description | Symbol | 
+| --- | :--: |  
+

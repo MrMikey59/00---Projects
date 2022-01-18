@@ -14,6 +14,12 @@ Use 'Preview' with a short link and reduce your exposure:
 http://preview.<tinyURL>/ (remove the extra space)
 ```
 
+### Console
+The Console requires developer functions in your browser. If not available, enable Developer. 
+```javascript
+console.log("Greeting from the JavaScript!!!!");
+```
+
 # Chrome (Google)  
 
 ### Chrome Extensions
