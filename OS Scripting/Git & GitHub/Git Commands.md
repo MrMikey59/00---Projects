@@ -61,6 +61,7 @@ Example Repsoitories to Check Out
 | git push -u origin main | Copy local repository files/folders to GitHub repository |  
 | git push origin :\<BranchName> | Delete branch from GitHub repository |  
 | git reflog | List of every thing you've done in git, across all branches! |  
+| [git rebase](https://git-scm.com/docs/git-rebase#Documentation/git-rebase.txt--i) | |  
 | git remote add origin https://github.com/\<UserName>/\<RepositoryName>.git | Connect Git wit GitHub |  
 | git reset | Unstage all |  
 | git reset \<FileFolderName> | Unstage file/folder |  

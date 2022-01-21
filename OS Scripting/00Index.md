@@ -33,8 +33,9 @@ Options for the command line will differ based on the operating system you use.
 - [kb](https://github.com/gnebbia/kb) - is a minimalist command-line knowledge base manager. kb can be used to organize your notes and cheatsheets in a minimalist and clean way. It also supports non-text files.
 
 - [navi](https://github.com/denisidoro/navi) - is an interactive cheatsheet tool, which allows you to browse through specific examples or complete commands on the fly.
-## TLDR (tl;dr)  
+## [TLDR (tl;dr)](https://tldr.sh/)  
 - [TLDR on GitHub]( https://github.com/tldr-pages/)  
 - [TLDR Gitter channel](https://gitter.im/tldr-pages/tldr)  
 - [Too Long; Didn’t Read](https://www.howtogeek.com/435266/what-does-tldr-mean-and-how-do-you-use-it/)   
+- [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
