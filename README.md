@@ -5,3 +5,5 @@ I use this respository for all my notes while learning to code again!
 
 Comments & help are always appreciated. 
 
+[![Build status][github-actions-image]][github-actions-url]  
+
