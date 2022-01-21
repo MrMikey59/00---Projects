@@ -85,8 +85,9 @@ http://www.stsci.edu/resources/software_hardware/pyfits
 
 #### [PyPi](https://pypi.org/)  
   * [Bbfreeze](http://pypi.python.org/pypi/bbfreeze)
-  * [requests](https://pypi.org/project/requests/) 
+  * [Overlay](https://pypi.org/project/overlay/)
   * [PyVirtualDisplay](https://pypi.org/project/PyVirtualDisplay/) 
+  * [requests](https://pypi.org/project/requests/) 
   * [selenium](https://pypi.org/project/selenium/)
 
 #### Python(x,y)  
