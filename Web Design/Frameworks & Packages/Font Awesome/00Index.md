@@ -11,6 +11,7 @@
 
 ### Kit for FA 4.7
 ```html
+<link rel="stylesheet" href="font-awesome.min.css">
 <script src="https://use.fontawesome.com/d504e8709d.js"></script>
 ```
 
