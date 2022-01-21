@@ -34,5 +34,5 @@
 |Build Your Own Web Site|The Rig - Ian Lloyd||
 |HTML Utopia: Designing Without Tables Using CSS |Dan Shafer||
 |Learn Python the Hard Way|Zed A. Shaw|Learn Python the Hard Way <br> Free: First 9 Sample Exercises only|
-|Rip Tutorial– Excel-VBA|| Poor format, very smal help. FREE! |
+|[Rip Tutorial](https://riptutorial.com/) – Excel-VBA|| DONE <BR> Poor format, very smal help. FREE! |
 

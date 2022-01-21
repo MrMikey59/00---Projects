@@ -6,6 +6,12 @@ It’s invalid HTML to have an ID exist on more than one element.
 
 Log event every time a link is activated:	`onClick= "LogEntry(<strLinkName>)"`
 
+## Conventions
+- Two spaces for indentation, never tabs  
+- Double quotes only, never single quotes  
+- Always use proper indentation  
+- Use tags and elements appropriate for an HTML5 doctype  
+
 ## Referencing File locations in HTML
 | File Location | Source Call |
 | ---- | ---- |

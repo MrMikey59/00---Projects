@@ -2,6 +2,10 @@
 
 This folder contains CSS notes, snippets and example code.
 
+- [Less](http://lesscss.org/) (Run `npm install -g less` to install).
+  - [Less Plugin: Clean CSS](https://github.com/less/less-plugin-clean-css)  
+  (Run `npm install -g less-plugin-clean-css` to install).
+
 CSS seems deceptively straightforward, but there are many challenges when trying to style an app perfectly for all browsers and all screen sizes. CSS-Grid and Flexbox are tools that have been developed to make the job a little more structured and more reliable. Learn about these tools by playing [Flexbox Froggy](https://flexboxfroggy.com/) and [Grid Garden](https://codepip.com/games/grid-garden/).
 
 CSS is a container of Rules that modify the browser display of elements.
@@ -14,6 +18,14 @@ The Rule: Each rule has exactly two parts:
 **Note**: An HTML element can belong to multiple classes if you wish, simply by listing the classes (separated by spaces) in the class attribute. 
 
 **Note**: Element IDs are required to be unique and for a single instance.
+
+#### CSS Conventions
+- [CSS property order](http://markdotto.com/2011/11/29/css-property-order/)  
+- Multiple-line approach (one property and value per line)  
+- Always a space after a property's colon  
+- End all lines with a semi-colon  
+- For multiple, comma-separated selectors, place each selector on its own line  
+- Attribute selectors, like `input[type="text"]` should always wrap the attribute's value in double quote  
 
 #### CSS Implementation
 Style can be implemented in three ways: Internal, Inline and External.

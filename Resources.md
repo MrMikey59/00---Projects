@@ -103,12 +103,13 @@
 
 ## Licensing Software  
 [Choose a License]( https://choosealicense.com/) 
-- [Creative Commons License/](http://creativecommons.org/) 
+- [Creative Commons License (CCL)](http://creativecommons.org/) 
   - [Attribution Non-Commercial 2.5/](http://creativecommons.org/licenses/by-nc/2.5/) 
--  [GNU General Public License v3.0 License](http://www.gnu.org/)   
-  - [License ](http://www.gnu.org/licenses/gpl.html)  
+  - [CCL 3.0](http://creativecommons.org/licenses/by/3.0/)
+- [GNU General Public License v3.0 License](http://www.gnu.org/)   
+  - [License](http://www.gnu.org/licenses/gpl.html)  
 - [OpenSource.org](http://www.opensource.org/)   
-  - [MIT  License](http://www.opensource.org/licenses/mit-license.php)   
+  - [MIT License](http://www.opensource.org/licenses/mit-license.php)   
 - [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL)
 - [Unlicense](http://unlicense.org)  
 

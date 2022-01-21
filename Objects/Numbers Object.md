@@ -15,6 +15,24 @@
 | Hexadecimal (base 16) | An integer with a leading 0x or 0X (e.g., 0x5F or 0XC72) |  ```0 1 2 3 4 5 6 7 8 9 A B C D E F``` | `Const hexChars = "0123456789ABCDEF"` | 
 | Roman |  | ```I V X L C M D``` | `Const decChars = "IVXLCMD"` |  
 
+## Handling Numbers
+
+### Allow the user to efficiently use percentage fields
+To minimize data entry work by the users, put the following code behind the AfterUpdate event of every percentage field. Assume that any number entered which is larger than +/- 1 is actually the left hand side of the percentage. i.e. user entered 12.5 which is then displayed as 12.5% which is stored internally as 0.125.  
+```vbscript
+On Error GoTo tagError
+If Abs(Me!jodaDiscountAdderPercent) > 1 Then _
+Me!jodaDiscountAdderPercent = Me!jodaDiscountAdderPercent / 100
+Exit Sub
+
+tagError:
+MsgBox Err.Description
+Exit Sub
+```
+
+**Note** that if you are using the results of this percentage elsewhere in logic where you are referencing the field in a recordset do ensure that you save the record first before continuing. I wasted twenty minutes in some complex VBA code trying to figure out why 30% and 20% were adding up to 2030%. 
+Also note that this assumes the user will never have percentages greater than 100%. After all if the user puts in 1.25 meaning 125% then it will get reduced to 1.25% which is not at all what they meant. 
+
 ## Examples
 
 #### Convert Hexadecimal to Decimal

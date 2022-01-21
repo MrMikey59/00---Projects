@@ -1,5 +1,7 @@
 # MS OFfice Word Object
 
+- [Word Object](https://docs.microsoft.com/en-us/visualstudio/vsto/word-object-model-overview?view=vs-2019)  
+![Word Object](00pics\WordObject.png)
 #### 
 To explore Application object event sequences  
 Using the code from the procedure you just completed, you can step through some actions in Word to see exactly what triggers these events.   
@@ -36,4 +38,85 @@ Public Sub RegisterEventHandler()
 End Sub
 ```
 8.	On the File menu, click Save.   
+
+## Word Application Object
+```vbscript
+Dim objWord As Object
+Set objWord = GetObject(, "Word.Application")
+  objWord.Visible = True
+  objWord.Documents.Open "C:\My Documents\Temp.doc"
+Set objWord = Nothing
+' Alternate: 
+Dim objWord As Word.Application
+Set objWord = New Word.Application
+Set objWord = Nothing
+```
+
+## Word Document Object
+```vbscript
+Dim objWDoc As Word.Document
+'Create a new document
+  Set objWDoc = objWord.Documents.Add 
+  objWDoc.Save
+  objWDoc.Close
+Set objWDoc = nothing
+```
+
+## Word Range Object
+```vbscript
+Dim objRng as Word.Range 
+Set objRng = ActiveDocument.Range
+  objRng.Delete 
+  objRng.Move Unit:=wdStory, Count:=-1
+  objRng.Select
+Set objRng = Nothing
+```
+
+## Word Table Object
+```vbscript
+Dim objWTab As Word.Table
+  Set objWTab = objWDoc.Tables.Add(Range:=Selection.Range,_
+  objWTab.Cell(1, 1).Select 
+  Selection.TypeText ("Hello World")
+```
+
+# Examples
+
+### Get the Help Document (Word)
+Requires:  objWord
+```vbscript
+Private Sub cmdHelp_Click()
+' The short version of opening a word instance
+' with a document.
+  Dim strWordDoc As String
+  strWordDoc = <FilePathName>
+  objWord.Visible = True
+  objWord.Documents.Open FileName:= strWordDoc
+End Sub
+```
+
+### Open Word Application
+Requires: objWord & objDoc
+```vbscript
+Sub Open_MSWord()
+' You should create a reference to the Word Object Library in the VBEditor
+On Error GoTo errorHandler
+Dim mywdRange As Word.Range
+With objWord
+    .Visible = True
+    .WindowState = wdWindowStateMaximize
+End With
+Set mywdRange = objDoc.Words(1)
+With mywdRange
+    .Text = Range("F6") & " This text is being used to test subroutine." & _
+        "  More meaningful text to follow."
+    .Font.Name = "Comic Sans MS"
+    .Font.Size = 12
+    .Font.ColorIndex = wdGreen
+    .Bold = True
+End With
+errorHandler:
+Set mywdRange = Nothing
+End Sub
+```
 

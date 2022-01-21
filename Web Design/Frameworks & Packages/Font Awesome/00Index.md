@@ -13,6 +13,7 @@ Font Awesome Free is free, open source, and GPL friendly. You can use it for com
 - [Font Awesome 4](https://fontawesome.com/v4.7/)
 - https://github.com/Rush/Font-Awesome-SVG-PNG
 - https://github.com/FortAwesome/Font-Awesome  
+[Fort Awesome](https://fortawesome.com) - Dave Gandy
 
 ### Kit 1: 
 ```html

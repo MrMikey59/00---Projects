@@ -2,6 +2,7 @@
 
 This folder contains notes, sippets and examples.
 
+- [Java Goodies](http://www.javagoodies.com/)  
 ## Examples
 
 #### Common Constants, Declarations & Variables
