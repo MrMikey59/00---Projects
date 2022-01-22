@@ -137,42 +137,6 @@ The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/mast
 | lowercase|||text-transform |
 | uppercase|||text-transform |
 
-## CSS Selectors
-| Selector | Description | Example |  
-| --- | --- | --- | 
-| Adjacent |  | `P + H3` |
-| At Character Set  |  | `@charset "ISO-8859-1";` |  
-| Attribute |  | `INPUT[type="text"]` |
-| Class |  | `.ClassName` |
-| Combinations |  | `H1.ClassName, P SPAN` |
-| Comments |  | `/* <Message> */` |  
-| Descendant |  | `P SPAN` |
-| Element with Pseudo-Element/Psuedo-Class |  | `P:first-line` |
-| ID |  | `#ElementID` |
-| List of Elements | comma separated list | `H1, H2, H3` |
-| Parent-Child |  | `BODY > P` |
-| Single Element |  | `H1` |
-| Universal |  | `*` |
-
-### Pseudo Selectors
-| Selector | Description | Example |  
-| --- | --- | --- |  
-| :active |  |  |  
-| :after |  |  |  
-| :before  |  |  |   
-| :checked  |  |  |   
-| :disabled  |  |  |   
-| :enabled  |  |  |   
-| :first-child  |  |  |   
-| :first-letter  |  |  |   
-| :first-line  |  |  |   
-| :focus  |  |  |   
-| :hover  |  |  |   
-| :link  |  |  |   
-| :not(<Selector>)  |  |  |   
-| :nth-of-type(\<IndexNumber> \| even \| odd)  |  | `#table1 .col:nth-child(even)` |   
-| :visited |  |  |  |  
-
 ## The Attribute Roadmaps
 | Attribut Roadmap | Examples
 | --- | --- |  
