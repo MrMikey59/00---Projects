@@ -1,6 +1,6 @@
 # CSS Keywords
 
-**Note**: Color keywords are not covered in this document. Go to the Color document in Web Design.
+**Note**: Color keywords are not covered in this document. Go to the [Color document](https://github.com/MrMikey59/00---Projects/blob/master/Web%20Design/Color.md) in Web Design.
 
 |Constants|Description|Value|Type |
 | --- | --- | --- | --- |  
