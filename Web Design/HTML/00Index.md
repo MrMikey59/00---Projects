@@ -6,18 +6,54 @@ It’s invalid HTML to have an ID exist on more than one element.
 
 Log event every time a link is activated:	`onClick= "LogEntry(<strLinkName>)"`
 
+## Conditional HTML
+Calling Different HTML Elements depending on IE Browser version. Is this still/really necessary?
+```html
+<!--[if lt IE 7 ]>
+  <html class="ie ie6" lang="en"> 
+<![endif]-->
+<!--[if IE 7 ]>
+  <html class="ie ie7" lang="en"> 
+<![endif]-->
+<!--[if IE 8 ]>
+  <html class="ie ie8" lang="en">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]>
+  <html lang="en" xmlns="http://www.w3.org/1999/html"> 
+<![endif]-->
+```
+
 ## Conventions
-- Two spaces for indentation, never tabs  
+- All HTML Elements are in UPPERCASE
+- All attributes are in lowercase; no spaces arounf the '=' so values are linked for word wrapping.
+- Two spaces for indentation, never tabs; Always use proper indentation 
 - Double quotes only, never single quotes  
-- Always use proper indentation  
-- Use tags and elements appropriate for an HTML5 doctype  
+- Use Elements appropriate for an HTML5 doctype  
+- Always include the following META Elements so everyone is on the same code page:
+```html
+    <META charset="utf-8" />
+    <META name="description" content="How you describe this page!">
+    <META name="viewport" content="width=device-width, initial-scale=1.0">
+    <META name="author" content="YourName">
+```
+- Avoid embedded & inline STYLE. Always Link to the CSS style modules!
+- Avoid embedded & inline SCRIPT as much as possible. Always link to the script modules.
+- Use comments to define page sections for ease of identification.
+  - Head Comments
+  ```html
+  <!-- =====    CSS    ====== -->
+  <!-- =====  SCRIPT   ====== -->
+  ```
+  - Body Comments
+  ```html
+  ```
 
 ## Referencing File locations in HTML
 | File Location | Source Call |
 | ---- | ---- |
 | Current Directory | src="<FileName>" |
 | Current Directory’s subdirectory “scripts” | src="/scripts/<FileName>” |
-| Parent’s “src” Subdirectory | src="../src/<FileName>” |
+| Parent’s “src” Subdirectory | src="../src/<FileName>” |  
 
 ## Troubleshooting & Testing HTML with Browser Console
 

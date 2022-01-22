@@ -1,0 +1,81 @@
+/* Spans % Offsets */
+/* span999 - where 999 is the span in pixels.
+   offset999 - where 999 is the offset in pixels. */
+
+/* Spans */
+.span940{
+  width:940px;
+}
+.span860{
+  width:860px;
+}
+.span780{
+  width:780px;
+}
+.span700{
+  width:700px;
+}
+.span620{
+  width:620px;
+}
+.span540{
+  width:540px;
+}
+.span460{
+  width:460px;
+}
+.span380{
+  width:380px;
+}
+.span300{
+  width:300px;
+}
+.span220{
+  width:220px;
+}
+.span140{
+  width:140px;
+}
+.span60{
+  width:60px;
+}
+
+/* Spans */
+
+.offset980{
+  margin-left:980px;
+}
+.offset900{
+  margin-left:900px;
+}
+.offset820{
+  margin-left:820px;
+}
+.offset740{
+  margin-left:740px;
+}
+.offse660{
+  margin-left:660px;
+}
+.offset580{
+  margin-left:580px;
+}
+.offset500{
+  margin-left:500px;
+}
+.offset420{
+  margin-left:420px;
+}
+.offset340{
+  margin-left:340px;
+}
+.offset260{
+  margin-left:260px;
+}
+.offset180{
+  margin-left:180px;
+}
+.offset100{
+  margin-left:100px;
+}
+

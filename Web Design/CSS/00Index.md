@@ -26,6 +26,24 @@ The Rule: Each rule has exactly two parts:
 - End all lines with a semi-colon  
 - For multiple, comma-separated selectors, place each selector on its own line  
 - Attribute selectors, like `input[type="text"]` should always wrap the attribute's value in double quote  
+- Organiztion (in alphabetical order with Comments to mark sections!)
+    ```css
+    /* Resets */
+    /* Anchors */
+    /* Containers */
+    /* IDs for Containers */
+    /* IDs for Forms */
+    /* IDs for Tables */  
+    /* Specialty IDs */
+    /* Classes for Containers */
+    /* Classes for Forms */
+    /* Classes for Tables */
+    /* Specialty Classes */
+    ```
+  - Any Resets.
+  - Standard Element Selectors
+  - #ID Selectors (only used once!)
+  - .Class Selectors
 
 #### CSS Implementation
 Style can be implemented in three ways: Internal, Inline and External.

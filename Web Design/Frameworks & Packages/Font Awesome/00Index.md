@@ -26,3 +26,40 @@ Font Awesome Free is free, open source, and GPL friendly. You can use it for com
 <script src="https://use.fontawesome.com/d504e8709d.js"></script>
 ```
 
+## Examples
+
+### Make a Button, Button Group, or a Dropdown Menu Button
+```html
+<a class="btn" href="#"><i class="icon-repeat"></i> Reload</a>
+
+<div class="btn-group">
+  <a class="btn" href="#"><i class="icon-align-left"></i></a>
+  <a class="btn" href="#"><i class="icon-align-center"></i></a>
+  <a class="btn" href="#"><i class="icon-align-right"></i></a>
+  <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+</div>
+
+<div class="btn-group open">
+  <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
+  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+    <span class="icon-caret-down"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="#"><i class="icon-fixed-width icon-pencil"></i> Edit</a></li>
+    <li><a href="#"><i class="icon-fixed-width icon-trash"></i> Delete</a></li>
+    <li><a href="#"><i class="icon-fixed-width icon-ban-circle"></i> Ban</a></li>
+    <li class="divider"></li>
+    <li><a href="#"><i class="i"></i> Make admin</a></li>
+  </ul>
+</div>
+```
+
+### Make a Menu
+```html
+<ul class="nav nav-list">
+  <li class="active"><a href="#"><i class="icon-fixed-width icon-home"></i> Home</a></li>
+  <li><a href="#"><i class="icon-fixed-width icon-book"></i> Library</a></li>
+  <li><a href="#"><i class="icon-fixed-width icon-pencil"></i> Applications</a></li>
+  <li><a href="#"><i class="icon-fixed-width icon-cogs"></i> Settings</a></li>
+</ul>
+```
+

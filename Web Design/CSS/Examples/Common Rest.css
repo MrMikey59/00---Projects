@@ -1,0 +1,19 @@
+/* This is my common Rest of HTML so they all start the same. */
+
+/* Anchors */
+a {
+  color: royalblue;
+  outline:0;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:hover,
+a:focus {
+  color: blue;
+}
+a:visited {
+  color: orange;
+}
+
