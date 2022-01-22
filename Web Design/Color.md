@@ -1,9 +1,10 @@
 # Color
 
-#### RGB vs. HSL vs. CYM  
+#### RGB vs. HEX vs. HSL vs. CYM  
 CYM	- Cyan-Yellow-Magenta  
-RGB	- Red-Green-Blue  
-HSL	- Hue-Saturation-Luminescence  
+HEX - #FFFFFF (where characters are set as #RRGGBB) or #FFF (where characters are set as #RGB)
+HSL	- Hue-Saturation-Luminescence; hsl(h, s, l), where h is hue (0-360 degrees or 0-255), s is saturation (0-255) and l is luminesence (0-255). 
+RGB	- Red-Green-Blue; rgb(r,g,b) or rgba(r,g,b,a), where r is red, g is green and b is blue with values between 0 & 255; a is the alpha channel and values are from 0.00 to 1.00)
 
 #### Colors  
 - [CSS2 System Colors](https://www.w3.org/TR/css3-color/#css2-system)  
