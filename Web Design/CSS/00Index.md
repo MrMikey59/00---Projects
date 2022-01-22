@@ -88,7 +88,7 @@ p {
 ```
 
 #### The Box Model
-The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/master/CSS/CSS%20Box%20Model.png)  
+The Box![The CSS Box Model](CSS%20Box%20Model.png)  
 **Note**: The visible width of the box is determined by adding together the content width, the padding and the border.
 
 ## The Attribute Roadmaps
