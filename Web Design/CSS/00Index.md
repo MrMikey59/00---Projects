@@ -5,6 +5,8 @@ This folder contains CSS notes, snippets and example code.
 - [Less](http://lesscss.org/) (Run `npm install -g less` to install).
   - [Less Plugin: Clean CSS](https://github.com/less/less-plugin-clean-css)  
   (Run `npm install -g less-plugin-clean-css` to install).
+- SASS
+- SCSS
 
 CSS seems deceptively straightforward, but there are many challenges when trying to style an app perfectly for all browsers and all screen sizes. CSS-Grid and Flexbox are tools that have been developed to make the job a little more structured and more reliable. Learn about these tools by playing [Flexbox Froggy](https://flexboxfroggy.com/) and [Grid Garden](https://codepip.com/games/grid-garden/).
 
@@ -89,54 +91,6 @@ p {
 The Box![The CSS Box Model](https://github.com/MrMikey59/00---Projects/blob/master/CSS/CSS%20Box%20Model.png)  
 **Note**: The visible width of the box is determined by adding together the content width, the padding and the border.
 
-## CSS Constants
-|Constants|Description|Value|Type |
-| --- | --- | --- | --- |  
-| dashed|||border-style |
-| dotted|||border-style |
-| double|||border-style |
-| groove|||border-style |
-| hidden|||border-style |
-| inset|||border-style |
-| none|||border-style |
-| display |
-| text decoration |
-| outset|||border-style |
-| ridge|||border-style |
-| solid|Default||border-style |
-| block|override for inline elements||display |
-| inline|override for block elements||display |
-| list-item|||display |
-| table-footer-group|||display |
-| table-header-group|||display |
-| large |||font size |
-| medium |||font size |
-| small |||font size |
-| x-large |||font size |
-| x-small |||font size |
-| xx-large|||font size |
-| xx-small |||font size |
-| italic|||font style |
-| normal|||font style |
-| font weight |
-| bold|||font weight |
-| circle|||list-style-type |
-| disc|||list-style-type |
-| none|||list-style-type |
-| square|||list-style-type |
-| absolute|||position |
-| relative|||position |
-| 999%|percentage||size |
-| 999em|||size |
-| 999ex|||size |
-| 999pt|points||size |
-| 999px|pixels||size |
-| line-through|||text decoration |
-| overline|||text decoration |
-| underline|||text decoration |
-| lowercase|||text-transform |
-| uppercase|||text-transform |
-
 ## The Attribute Roadmaps
 | Attribut Roadmap | Examples
 | --- | --- |  
@@ -204,16 +158,4 @@ H1 {
 -	[Circles.css](https://github.com/MrMikey59/00---Projects/blob/master/CSS/Circles/css/circle.css)
 
 A CSS package for creating circle representations with percentages of completion.
-
-#### Simple.css
-
-| Area | List | 
-| -- | -- |  
-| GENERAL | .centered  <BR> .clearall <BR> .floatleft <BR> .floatright <BR> .hidden <BR> .middle  |  
-| Background Color | .black  <BR> .white  <BR> .red  <BR> .green  <BR> .blue  |  
-| Borders | .rounded-corners <BR> .shadow |  
-| Margins & Padding | .margins0 <BR> .margins5 <BR> .padding0 <BR> .padding5 |  
-| Text Color | .blacktext  <BR> .whitetext  <BR> .redtext  <BR> .greentext  <BR> .bluetext |  
-| Text Style | .lowercase <BR> .uppercase <BR> .monospace <BR> .textcenter  <BR> .textitalic <BR> .textleft  <BR> .textright  <BR> .textstrong |  
-| Vertical Alignment | .vabottom <BR> .vamiddle <BR> .vatop |  
 
