@@ -1,0 +1,64 @@
+/* Themes.css */
+
+/* =======  Colors  ====== 
+    Aqua: #00ffff
+    Blue: #0000ff
+    Dark Grey: #666666
+    Fuchsia:#ff00ff
+    Light Grey: #cccccc
+    Lime: #00ff00
+    Orange: #ff6600
+    Yellow: #ffff00
+*/
+
+/*  Background Colors  */
+.black {  
+  background: #000000; 
+}
+.white {  
+  background: #FFFFFF; 
+}
+.red {  
+  background: #FF0000; 
+}
+.green {  
+  background: #00FF00; 
+}
+.blue {  
+  background: #0000FF; 
+}
+
+/*  Text Colors - Common  */
+.blacktext {  
+  color: #000000; 
+}
+.whitetext {  
+  color: #FFFFFF; 
+}
+.redtext {  
+  color: #FF0000; 
+}
+.greentext {  
+  color: #00FF00; 
+}
+.bluetext {  
+  color: #0000FF; 
+}
+
+/*  Text Colors - Theme  */
+.accent1 {  
+  color: #000000; 
+}
+.accent2 {  
+  color: #FFFFFF; 
+}
+.accent3 {  
+  color: #FF0000; 
+}
+.light {  
+  color: #00FF00; 
+}
+.dark {  
+  color: #0000FF; 
+}
+

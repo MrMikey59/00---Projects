@@ -1,0 +1,83 @@
+/* ======  HEADERS  ====== */
+
+/*  The Page Header Templates
+    <H1>Your Header</H1>
+*/
+
+/* Common Settings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 10px 0;
+  text-rendering: optimizelegibility;
+}
+h1,
+h2,
+h3{
+  line-height: 40px;
+}
+h4,
+h5,
+h6{
+  line-height: 20px;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 21px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+
+/* Sub-Headers */
+
+/*  The Sub-Header Templates
+    <H1>Your Header<BR> <SMALL>The Sub-Header</SMALL></H1>
+*/
+h1 small,
+h2 small,
+h3 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+h1 small{
+  font-size:18px;
+}
+h2 small{
+  font-size:16px;
+}
+h3 small{
+  font-size:12px;
+}
+
+/* Header Modifiers */
+
+/*  The Page Header Templates
+    <H1 class="page-header">Your Header</H1>
+*/
+
+.page-header{
+  padding-bottom: 9px;
+  margin: 20px 0 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+
