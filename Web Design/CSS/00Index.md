@@ -49,6 +49,12 @@ The Rule: Each rule has exactly two parts:
 
 #### CSS Implementation
 Style can be implemented in three ways: Internal, Inline and External.
+All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+
+  1. Inline style (inside an HTML element)
+  2. External and internal style sheets (in the head section)
+  3. Browser default
+
 
 ###### Internal (Anywhere in document)
 ```css

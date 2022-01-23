@@ -25,6 +25,7 @@ WD - Web Design (HTML, CSS, etc.)
 | focus() | Emulates the user focusing on a particular form field | Y |  |  |  |  
 | fontcolor() | Method of the string object that sets the HTML font color for the string | Y |  |  | Y |  
 | form.submit() | Emulates the submission of an HTML form | Y |  |  | Y |  
+| hsl() | Determines color based on hue, saturation and luminecense settings |  |  |  | Y |  
 | IF() |Test the generated number to determine the character type  | |  | XL |  |  
 | INDEX()|return the corresponding item in column/row/range | |  |XL |  |  
 | int() | Convert value to an integer | Y | Y |  |  |  
@@ -36,6 +37,7 @@ WD - Web Design (HTML, CSS, etc.)
 | MATCH()|returns the position of the matching item in column/row/range | |  |XL |  |  
 | MAX()()| | |  |XL |  |  
 | MIN() | | |  |XL |  | 
+| not() | Logical not |  |  |  | CS |  
 | OR()| | |  |XL |  |  
 | parseFloat()|Converts a string to a floating point number|Y |  |  |  |  
 | parseInt()|Converts a string to an integer number|Y |  | |  |  
@@ -44,8 +46,8 @@ WD - Web Design (HTML, CSS, etc.)
 | RAND() |Generate a random number within a given range; to generate a number between one and 15 use: `=RAND()*(15-1)+1` | |  |  
 | raw_input() |  |  | Y |  |  |  
 | reset() | Emulates the user clicking on the Reset button of a form | Y |  |  |  |  
-| rgb() | Determines color based og R - G - B settings |  | Y |  | Y |  
-| rgba() | Determines color based og R - G - B and A (Intensity) channel settings |  | Y |  | Y |  
+| rgb() | Determines color based on R - G - B settings |  | Y |  | Y |  
+| rgba() | Determines color based on R - G - B and A (Intensity) channel settings |  | Y |  | Y |  
 | select() | Emulates selecting text in a field (password, text, text area) | Y |  |  |  |  
 | STDDEV()| | |  | XL |  |  
 | STDDEVP()| | |  | XL |  |  

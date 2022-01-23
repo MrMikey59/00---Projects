@@ -7,8 +7,18 @@ CSS uses HTML/SGML commenting like: `/* comment */`
 | --- | --- |  
 | = | Equal |
 | != | Not equal |  
-| \|= | Starts with |  
+| \|= <BR> ^= | Starts with |  
+| $= | Ends with |  
+| *= <BR> ~= | contains the substring in the attribute |  
 | : |  Key-Value Pair separator |  
+| :: | Insert |  
+
+#### Browser Conditional Checks
+|  Key Check | Comment Embedded Code |  
+| --- | --- | 
+| IE 7 |`<!--[if IE 7]>` <BR> `<![endif]-->`|  
+| IE 8 |`<!--[if IE 8]>` <BR> `<![endif]-->`|  
+| IE 9 |`<!--[if IE 9]>` <BR> `<![endif]-->`|  
 
 ## CSS2
 
