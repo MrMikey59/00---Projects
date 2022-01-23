@@ -2,6 +2,7 @@
 
 This folder contains CSS notes, snippets and example code.
 
+- [CCS Object Model (CSSOM)](https://drafts.csswg.org/cssom/) 
 - [Less](http://lesscss.org/) (Run `npm install -g less` to install).
   - [Less Plugin: Clean CSS](https://github.com/less/less-plugin-clean-css)  
   (Run `npm install -g less-plugin-clean-css` to install).

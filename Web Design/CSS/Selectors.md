@@ -1,5 +1,7 @@
 # CSS Selectors
 
+- [W3School’s CSS Selector]( https://www.w3schools.com/cssref/css_selectors.asp)
+
 CSS uses HTML/SGML commenting like: `/* comment */`
 
 #### Operators in CSS

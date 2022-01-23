@@ -15,6 +15,16 @@
 .clearall {  
   clear: both; 
 } 
+.clearfix{
+  *zoom:1;
+}
+.clearfix:before,.clearfix:after{
+  display:table;content:"";
+  line-height:0;
+}
+.clearfix:after{
+  clear:both;
+}
 .floatleft {  
   float:left; 
 }
@@ -23,6 +33,7 @@
 } 
 .hidden {   
   display: none; 
+  visibility: hidden; 
 }
 .middle {  
   margin-left: auto; 	
