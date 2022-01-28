@@ -2,6 +2,23 @@
 
 This folder contains SVG notes, snippets and example code
 
+## SVG The Container
+```svg
+<svg 
+  aria-label="Loading" 
+  viewBox="0 0 64 64" 
+  class="sc-dlfnbm ktLGbV"
+>  </svg>
+```
+
+## Circle
+```svg
+<circle cx="32" cy="32" r="32" class="sc-hKgILt dFKJAk"></circle>
+<circle color="light" cx="32" cy="32" r="32" stroke-linecap="round" class="sc-eCssSg kRaCnm"></circle>
+```
+
+## Examples
+
 #### Blue Star
 ```svg
 <SVG width="12cm" height="4cm" viewBox="0 0 1200 400"
