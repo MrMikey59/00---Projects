@@ -2,6 +2,17 @@
 
 This folder contains SVG notes, snippets and example code
 
+#### Attributes
+| Attribute |  |  
+| ---| --- |  
+| aria-label | label to support readers |  
+| class | the CSS class |  
+| color | color assignment |  
+| cx <BR> cy | circle center (X,Y) coordinates |  
+| r | radius |  
+| stroke-linecap |  |  
+| viewBox |  |  
+
 ## SVG The Container
 ```svg
 <svg 
@@ -17,6 +28,21 @@ This folder contains SVG notes, snippets and example code
 <circle color="light" cx="32" cy="32" r="32" stroke-linecap="round" class="sc-eCssSg kRaCnm"></circle>
 ```
 
+## DESC - The Description
+```svg
+<DESC>Item Name or Description</DESC>
+```
+
+## Polygon
+```svg
+<POLYGON 
+  fill="blue"
+  stroke="blue"
+  stroke-width="10" 
+  points="350,75  379,161 469,161 397,215 423,301 350,250 277,301 303,215 231,161 321,161"
+ />
+```
+  
 ## Examples
 
 #### Blue Star
