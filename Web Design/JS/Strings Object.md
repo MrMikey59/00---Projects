@@ -1,5 +1,10 @@
 # String Objects
 
+## Common String Variables 
+```javascript
+var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+```
+
 ## Compare String
 ```javascript
   function isEqual(str1, str2, ignoreCase) {
