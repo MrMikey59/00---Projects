@@ -1,6 +1,14 @@
 /* This is my common Rest of HTML so they all start the same. */
 
-/* Anchors */
+/* ======= The Documet ====== */
+```css
+html, body {
+  margin: 0;
+  padding: 0;
+}
+```
+
+/* ====== Anchors ====== */
 a {
   color: royalblue;
   outline:0;
