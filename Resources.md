@@ -103,6 +103,7 @@
 
 ## Licensing Software  
 [Choose a License]( https://choosealicense.com/) 
+- [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0)
 - [Creative Commons License (CCL)](http://creativecommons.org/) 
   - [Attribution Non-Commercial 2.5/](http://creativecommons.org/licenses/by-nc/2.5/) 
   - [CCL 3.0](http://creativecommons.org/licenses/by/3.0/)
