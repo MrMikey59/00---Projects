@@ -3,6 +3,14 @@
 A crucial tool is the browser. Web developers rely on the browser to observe how their code runs on the web, it's also used to view visual elements of a web page that are written in the editor, like HTML.  
 Many browsers come with *developer tools* (DevTools) that contain a set of helpful features and information to assist developers to collect and capture important insights about their application. For example: If a web page has errors, it's sometimes helpful to know when they occurred. DevTools in a browser can be configured to capture this information.   
 
+
+### Browser Independent OnLoad Calls
+```javascript
+if (window.addEventListener) window.addEventListener("load", <YourOnloadFunction>, false);
+else if (window.attachEvent) window.attachEvent("onload", <YourOnloadFunction>);
+else window.onload = <YourOnloadFunction>;
+```
+
 ### Popular Browsers and DevTools  
 - [Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium?WT.mc_id=academic-13441-cxa)   
 - [Chrome](https://developers.google.com/web/tools/chrome-devtools/)  
@@ -81,4 +89,14 @@ iexplore.exe [-private] [URL]
 **InPrivate** browsing is a private browsing mode in which no browsing history, download history, cookies and site data, and form fill data are remembered. Microsoft Edge saves downloaded files as well as any new favorites created while browsing InPrivate. By default, while browsing InPrivate, Microsoft does not collect any info about websites you visit for product improvement purposes. Your school, workplace, or internet service provider may still be able to see your browsing activity. Browsing data for the specific InPrivate session is cleared after all InPrivate windows are closed.
 
 # FireFox (Mozilla)  
+
+### Enable NTLM & Kerberos
+NTLM and Kerberos are not activated by default in Firefox. To make it work, you need to follow these steps:
+1. Navigate to the URL `about:config`.  
+2. Click past the warning of harmful consequences.  
+3. Type `negotiate-auth` into the filter at the top of the page, in order to remove most of the irrelevant settings from the list.  
+4. Double-click on `network.negotiate-auth.trusted-uris`. A dialogue box for editing the value should appear.  
+5. Enter the required hostname(s) and/or URL prefix(es) then click OK. For the above example, it is `http://localhost:3000`  
+
+[More detailed info here](http://www.microhowto.info/howto/configure_firefox_to_authenticate_using_spnego_and_kerberos.html) .
 
