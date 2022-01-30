@@ -104,6 +104,8 @@
 ## Licensing Software  
 [Choose a License]( https://choosealicense.com/) 
 - [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0)
+- [BSD 2-Clause License](???) 
+- [BSD 3-Clause License](https://github.com/Polymer/lit-html/blob/master/LICENSE)  
 - [Creative Commons License (CCL)](http://creativecommons.org/) 
   - [Attribution Non-Commercial 2.5/](http://creativecommons.org/licenses/by-nc/2.5/) 
   - [Attribution Non-Commercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
