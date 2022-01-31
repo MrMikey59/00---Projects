@@ -19,7 +19,7 @@ Developers rely on editors for a few additional reasons:
   - [Flight Manual](https://flight-manual.atom.io) 
   - [spell-check](https://atom.io/packages/spell-check)  
   - [teletype](https://atom.io/packages/teletype)  
-
+- [TextWrangler](http://www.barebones.com/products/TextWrangler/)
 - [Visual Studio Code](https://code.visualstudio.com/)  
   - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)  
   - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)  
