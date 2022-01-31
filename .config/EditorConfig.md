@@ -87,3 +87,31 @@ indent_size = 2
 | XML | .xml, .config, .props, .targets, .nuspec, .resx, .ruleset |  
 | YAML | .yml, .yaml |  
 
+## .editorconfig
+```
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+indent_size = 4
+trim_trailing_whitespace = false
+
+[*.{html,xml}]
+indent_size = 2
+
+[*.yml]
+indent_size = 2
+
+[*.css]
+indent_size = 2
+```
+
+

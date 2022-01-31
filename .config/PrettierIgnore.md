@@ -28,6 +28,18 @@ A list of propely formaatted comments:
 **/*.min.css
 ```
 
+## .prettierignore
+```
+**/*.min.js
+**/*.min.css
+
+.idea/
+node_modules/
+dist/
+build/
+```
+
+
 ## Extreme Example
 ```
 # PRETTIER SUCKS AND IS NOT ALLOWED TO RUN IN THIS PROJECT
