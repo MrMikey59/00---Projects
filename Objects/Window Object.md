@@ -51,6 +51,13 @@
 
 ## Example Code
 
+#### Variable Testing
+
+```javascript
+window = window || [];
+window.dataLayer = window.dataLayer || [];
+```
+
 #### Add an Event Listener
 ```javascript
 if (window.addEventListener) { 
