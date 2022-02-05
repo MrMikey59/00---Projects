@@ -1,4 +1,5 @@
 # VS Code Notes
+[VS Code](https://code.visualstudio.com/) 
 - https://github.com/FourMInfo/DevOps-Space/wiki/VSCode
 - https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/ide/writing-code-in-the-code-and-text-editor.md 
 
@@ -6,10 +7,15 @@
 ### Common Extensions  
 - [Extensions for the Visual Studio](https://marketplace.visualstudio.com/)  
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  
+  - [ESLint on GH](https://github.com/eslint/eslint) 
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)  
+- Live Server
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 - [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)  
 - [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts)  
+- [Prettier code formatter extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) 
+  - [Prettier on GH](https://github.com/prettier/prettier) 
+
 - [Prettier Standard](https://marketplace.visualstudio.com/items?itemName=numso.prettier-standard-vscode)  
 - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)  
 - [Rainbow Highlighter](https://marketplace.visualstudio.com/items?itemName=cobaltblu27.rainbow-highlighter)  
@@ -26,6 +32,7 @@
 | Action | Shortcut |  
 | --- | --- | 
 | Switch Panel Menu | `CTRL + Q` |  
+| Comment selected line(s) | `[CTRL] + /` |  
 | Close Window | `CTRL + W` |  
 | Switch Window Menu | `CTRL + TAB` |  
 | Open Command Palette <BR> Show all commands | `F1` <br> `CTRL + SHIFT + P` | 
