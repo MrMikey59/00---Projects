@@ -7,13 +7,22 @@ This folder contains notes, snippets and examples related to Excel.
 - [The Excel Addict](http://www.theexceladdict.com/)
 - Object Reference (2010): https://msdn.microsoft.com/en-us/library/office/ff194068(v=office.14).aspx 
 
+Excel is a spreadsheet program that allows you to store, organize, and analyze information. While you may believe Excel is only used by certain people to process complicated data, anyone can learn how to take advantage of the program's powerful features. Whether you're keeping a budget, organizing a training log, or creating an invoice, Excel makes it easy to work with different types of data.  
+
+Excel files are called workbooks. Whenever you start a new project in Excel, you'll need to create a new workbook. There are several ways to start working with a workbook in Excel 2013. You can choose to create a new workbook—either with a blank workbook or a predesigned template—or open an existing workbook.  
+
+Excel interprets 1 as TRUE and 0 as FALSE.  
+
 ![Excel Object Heirarchy Chart](https://github.com/MrMikey59/00---Projects/blob/master/Excel/Excel%20Object%20Chart.jpg)
 
 The image above illustrates only a very small portion of Excel’s VBA object hierarchy.  
 ![Excel Color Palette](ExcelColorPalette.JPG)  
 
+[Changdoo](http://www.Chandoo.org) - aims to make you “awesome in Excel” and his blog is incredibly popular, due to the fantastic info he sends out all for free—almost on a daily basis! Signing up to his newsletter is one of the best moves you can make if you want to continually improve your Excel skills.  
+
 Microsoft  
-  [Table References](https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e?ui=en-us&rs=en-us&ad=us)  
+ - [Table References](https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e?ui=en-us&rs=en-us&ad=us)  
+ 
 [Vertex42](https://www.vertex42.com/) - numerous Templates
 
 #### Common Folders
