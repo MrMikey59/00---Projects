@@ -18,6 +18,9 @@ WHY? Because these all make great test questions!
 **[Goodwill Community Foundation (GCF)](http://www.gcflearnfree.org/)**  
 - [Microsoft Access 2010](http://www.gcflearnfree.org/access2010/)  
 
+**[John Smilga on YouTube](https://www.youtube.com/codingaddict)**
+- [HTML5 and CSS3](https://www.youtube.com/watch?v=mU6anWqZJcc&t=117s) - 11.5 Hours
+
 **[Khan Academy](https://www.khanacademy.org/)**  
 - [Algorithm Theory](https://www.khanacademy.org/computing/computer-science/algorithms)  
 - [Information Theory](https://www.khanacademy.org/computing/computer-science/informationtheory)  
@@ -63,6 +66,40 @@ WHY? Because these all make great test questions!
 [Leslie O'Flahaven](www.ewriteonline.com)
 [Stacey Gordon](www.reworkwork.com)
 [This Caller](https://www.thiscaller.com/)  
+
+**YouTube** 
+Check these out:
+- [CSS3](https://www.youtube.com/watch?v=1Rs2ND1ryYc&t=7s)
+- [HTML5](https://www.youtube.com/watch?v=pQN-pnXPaVg)
+- [Detailed Bootstrap4](https://www.youtube.com/watch?v=Uhy3gtZoeOM)
+- [Bootstrap 4 Crash Course](https://www.youtube.com/watch?v=hnCmSXCZEpU)
+- [Bootstrap4 Complete Website](https://www.youtube.com/watch?v=-UEMWJjBXww&t=88s  https://youtu.be/frRyAlz82Ok)
+- [Javascript](https://www.youtube.com/watch?v=PkZNo7MFNFg)
+- [ES6](https://www.youtube.com/watch?v=nZ1DMMsyVyI)
+- [Typescript](https://www.youtube.com/watch?v=BwuLxPH8IDs)
+- [Typescript](https://www.youtube.com/watch?v=gp5H0Vw39yw)
+- [Angular](https://www.youtube.com/watch?v=2OHbjep_WjQ)
+- [ReactJs](https://www.youtube.com/watch?v=4UZrsTqkcW4)
+- [Angular Project](https://youtube.com/watch?v=XQA1bbHQJp0)
+- [React Project](https://www.youtube.com/watch?v=a_7Z7C_JCyo
+- [Spring Boot](https://www.youtube.com/watch?v=ZsKOQ7HmsSE)
+- [Spring Boot](https://www.youtube.com/watch?v=5VUjP1wMqoE)
+- [Spring Boot](https://www.youtube.com/watch?v=vtPkZShrvXQ&t=2s)
+- [Postgresql](https://www.youtube.com/watch?v=qw--VYLpxG4)
+- [Spring Boot and Angular](https://www.youtube.com/watch?v=Gx4iBLKLVHk)
+- [SQL](https://www.youtube.com/watch?v=HXV3zeQKqGY)
+- [Postgresql](https://www.youtube.com/watch?v=qw--VYLpxG4)
+- [Database Design](https://www.youtube.com/watch?v=ztHopE5Wnpc)
+- [MongoDb](https://www.youtube.com/watch?v=-56x56UppqQ)
+- [MongoDb](https://www.youtube.com/watch?v=VELru-FCWDM)
+- [MongoDb](https://www.youtube.com/watch?v=__5Iu0QZKNU&t=17s
+- [Docker](https://www.youtube.com/watch?v=3c-iBn73dDE&t=6209s)
+- [Kubernetes](https://www.youtube.com/watch?v=X48VuDVv0do&t=935s
+- [Microservices](https://www.youtube.com/watch?v=tljuDMmfJz8&t=6491s)
+- [Microservices](https://www.youtube.com/watch?v=Z7A_M8HkJG0&t=2992s)
+- [Microservices](https://www.youtube.com/watch?v=BnknNTN8icw&t=154s)
+- [Docker for Java](https://www.youtube.com/watch?v=FlSup_eelYE)
+- [Spring Microservices on Kubernates](https://www.youtube.com/watch?v=VAmntTPebKE&t=226s)
 
 ## Certifactions Achieved  
 |Authority	|Certification	|Description	|Completed|  

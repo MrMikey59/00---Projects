@@ -6,6 +6,8 @@ For this class, you can use VMs to experiment with operating systems, software, 
 
 In general, VMs have lots of uses. They are commonly used for running software that only runs on a certain operating system (e.g. using a Windows VM on Linux to run Windows-specific software). They are often used for experimenting with potentially malicious software.
 
+**[Ubuntu](www.ubuntu.com/download/desktop)** - an ISO image installation media for Hyper-V.
+
 ## Useful features
 
 - **Isolation**: hypervisors do a pretty good job of isolating the guest from the host, so you can use VMs to run buggy or untrusted software reasonably safely.
