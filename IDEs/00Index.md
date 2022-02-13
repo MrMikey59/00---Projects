@@ -2,7 +2,6 @@
 
 - VS Code: Visual Studio Code (Microsoft)
 
-
 One of the most crucial tools for software development is the editor. Editors are where you write your code and sometimes where you will run your code.  
 Developers rely on editors for a few additional reasons:    
 - **Debugging** Discovering bugs and errors by stepping through code, line by line. Some editors have debugging capabilities, or can be customized and added for specific programming languages.    
@@ -19,8 +18,12 @@ Developers rely on editors for a few additional reasons:
   - [Flight Manual](https://flight-manual.atom.io) 
   - [spell-check](https://atom.io/packages/spell-check)  
   - [teletype](https://atom.io/packages/teletype)  
+- [ElectronJS](https://electronjs.org/)
 - [TextWrangler](http://www.barebones.com/products/TextWrangler/)
 - [Visual Studio Code](https://code.visualstudio.com/)  
   - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)  
   - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)  
   - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)  
+  - [VS Code on GitHub] (https://github.com/Microsoft/vscode)
+  - [VS Code Key Binding](https://code.visualstudio.com/docs/getstarted/keybindings) 
+

@@ -30,33 +30,42 @@
 - [Keyboard shortcuts (Windows)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
 | Action | Shortcut |  
-| --- | --- | 
-| Switch Panel Menu | `CTRL + Q` |  
+| --- | --- |  
+| Add Edit Points | `[ALT] + (Click)` |  
+| Add New Line from any point | `[CTRL] + [ENTER]` |  
+| Auto Completion with Emmet & Code Snippets | `[CTRL] + [SPACE]` <BR> `[TAB]` or `[ENTER]` | 
+| Close Window | `[CTRL] + W` |  
+| Color Themes | File ➤ Preferences ➤ Color Theme |  
 | Comment selected line(s) | `[CTRL] + /` |  
-| Close Window | `CTRL + W` |  
-| Switch Window Menu | `CTRL + TAB` |  
-| Open Command Palette <BR> Show all commands | `F1` <br> `CTRL + SHIFT + P` | 
-| Open Debug Viewlet | `F5` <br> `CTRL + SHIFT + D` | 
-| Toggle terminal | `CTRL + \` ` | 
-| Preview Markdown | `CTRL + SHIFT + V` | 
-| Open Folder | `CTRL + K, CTRL + O` | 
-| Open keyboard shortcuts | `CTRL + K, CTRL + S` | 
-| Switch groups (also `Ctl + 1`, `Ctl + 2`, etc.) | `CTRL + K, CTRL + LEFT/RIGHT ARROW` | 
-| Merge file group | `CTRL + SHIFT + LEFT ARROW` | 
-| Go to file | `CTRL + P` |  
-| Run Build Task | `CTRL + SHIFT + B` | 
-| Open CLI in VSCode | `CTRL + ~` |  
-| Reload Document | `CTRL + R` |  
-| **Editing Shortcuts** |  |  
-| Auto Completion | `CTRL + SPACE` | 
-| Copy <BR> Cut <BR> Paste | `CTRL + C` <BR> `CTRL + X` <BR> `CTRL + P` |  
-| Jump to matching bracket | `CTRL + SHIFT + \` | 
-| Super replace | `CTRL + D` |  
-| Wrap Text | `ALT + Z` |  
-| Remove one indent of selection. |`[CTRL] + [` |   
+| Copy <BR> Cut <BR> Paste | `[CTRL] + C` <BR> `[CTRL] + X` <BR> `[CTRL] + P` |  
+| Find & Replace | `[CTRL] + [SHIFT] + F` (for Find) <BR> `[CTRL] + R` (Must be set up) <BR> `SHIFT + ALT+ [RIGHT/LEFT ARROW]` (Expand Selection)|  
+| Go to file | `[CTRL] + P` |  
 | Indent selection | `[CTRL] + ]` |   
-| Save Current file |  `[CTRL] + S` |  
+| Jump to matching bracket | `[CTRL] + SHIFT + \` |  
+| Localization Support | `View ➤ Command Palette, then type the following command: Configure Display Language (Opens locale.json)` |  
+| Merge file group | `[CTRL] + [SHIFT] + [LEFT ARROW]` |  
+| Minimap | View ➤ Toggle Minimap |  
+| Open CLI in VSCode | `[CTRL] + ~` |  
+| Open **Command Palette** <BR> Show all commands | `[F1]` <br> `[CTRL] + [SHIFT] + P` <BR> View ➤ Command Palette |  
+| Open Debug Viewlet | `[F5]` <br> `[CTRL] + [SHIFT] + D` | 
+| Open Folder | `[CTRL] + K, [CTRL] + O` | 
+| Open **keyboard shortcut** list | `[CTRL] + K, [CTRL] + S` | 
 | Open the VBE Palette for Command-Process-Script actions <br> ![VBE Palette](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/VBE%20Palette.png)|`[CTRL] + [SHIFT] + P `|  
+| Preview Markdown | `[CTRL] + [SHIFT] + V` | 
+| Reload Document | `[CTRL] + R` |  
+| Remove one indent of selection. |`[CTRL] + [` |   
+| Run Build Task | `[CTRL] + [SHIFT] + B` | 
+| Save Current file |  `[CTRL] + S` |  
+| Select Whole Words | `[CTRL] + D` | 
+| Settings | `[CTRL] + ,`  (comma) <BR> File ➤ Preferences ➤ Settings|  
+| Super replace | `[CTRL] + D` |  
+| Switch groups  | `[CTRL] + K, [CTRL] + [LEFT/RIGHT ARROW]` <BR> (also `[CTRL] + 1`, `[CTRL] + 2`, etc.)| 
+| Switch Panel Menu | `[CTRL] + Q` |  
+| Switch Window Menu | `[CTRL] + [TAB]` |  
+| Toggle terminal | `[CTRL] + \` ` |  
+| WHite Space | View ➤ Toggle Render Whitespace |  
+| Wrap Text | `[ALT] + Z` |  
+| Zoom In & Out | `[CTRL] + +` (minus for In) <BR> `[CTRL] + -` (plus for Out) |  
 
 ## Processes
 | Process | Actions |  
