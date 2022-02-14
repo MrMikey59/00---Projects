@@ -10,6 +10,8 @@ This folder contains Python notes, snippets and examples.
 
 #### Additional Sources  
 * [A Byte of Python](www.byteofpython.info) or [Alternate](http://www.ibiblio.org/swaroopch/byteofpython/read/)  
+* [Brython (Browser Python)](http://www.brython.info/) - an implementation of Python 3 running in the browser, with an interface to the DOM elements and events.
+  * [Brython on GitHub](https://github.com/brython-dev/brython)  
 * [Charming Python](http://gnosis.cx/publish/tech_index_cp.html) - an excellent series of Python-related articles by David Mertz.
 * [Code Like a Pythonista: Idiomatic Python](http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html) by David Goodger
 * [Dive into Python 3](https://diveintopython3.net/) by Mark Pilgrim  
