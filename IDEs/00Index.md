@@ -19,6 +19,7 @@ Developers rely on editors for a few additional reasons:
   - [spell-check](https://atom.io/packages/spell-check)  
   - [teletype](https://atom.io/packages/teletype)  
 - [ElectronJS](https://electronjs.org/)
+- [Notepad++](https://notepad-plus-plus.org/)
 - [TextWrangler](http://www.barebones.com/products/TextWrangler/)
 - [Visual Studio Code](https://code.visualstudio.com/)  
   - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)  
