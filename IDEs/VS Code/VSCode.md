@@ -2,6 +2,10 @@
 [VS Code](https://code.visualstudio.com/) 
 - https://github.com/FourMInfo/DevOps-Space/wiki/VSCode
 - https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/ide/writing-code-in-the-code-and-text-editor.md 
+- [VS Code Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)  
+
+### Training Available
+[VSCode Crash Course (James Q Quick)](https://www.youtube.com/watch?v=WPqXP_kLzpo) 
 
 ## Add-Ins & Extensions
 ### Common Extensions  
@@ -50,6 +54,8 @@
 | Open Debug Viewlet | `[F5]` <br> `[CTRL] + [SHIFT] + D` | 
 | Open Folder | `[CTRL] + K, [CTRL] + O` | 
 | Open **keyboard shortcut** list | `[CTRL] + K, [CTRL] + S` | 
+| Open Markdown Preview | `[CTRL] + [SHIFT] + V` |   
+| Open Markdown Preview (Side/Side) | `[CTRL] + K – V` <BR> or click in the tab bar:  ![Preview side/side](PreviewSxS.png) |  
 | Open the VBE Palette for Command-Process-Script actions <br> ![VBE Palette](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/VBE%20Palette.png)|`[CTRL] + [SHIFT] + P `|  
 | Preview Markdown | `[CTRL] + [SHIFT] + V` | 
 | Reload Document | `[CTRL] + R` |  
@@ -62,6 +68,7 @@
 | Switch groups  | `[CTRL] + K, [CTRL] + [LEFT/RIGHT ARROW]` <BR> (also `[CTRL] + 1`, `[CTRL] + 2`, etc.)| 
 | Switch Panel Menu | `[CTRL] + Q` |  
 | Switch Window Menu | `[CTRL] + [TAB]` |  
+| Toggle Comment | `[CTRL] + /`] |
 | Toggle terminal | `[CTRL] + \` ` |  
 | WHite Space | View ➤ Toggle Render Whitespace |  
 | Wrap Text | `[ALT] + Z` |  
