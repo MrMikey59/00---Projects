@@ -11,6 +11,10 @@
 - https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 - https://www.markdownguide.org/cheat-sheet/
 - https://stackedit.io/app#  
+- [MermaidJS](https://mermaid-js.github.io/) is a tool that renders diagrams based on markdown-like text content. It helps us visualize documentation and catch it up with development by dynamically creating and modifying diagrams in the browser. Mermaid supports various types of diagrams, such as UML diagrams, Gantt charts, Git Graphs, and User Journey Diagrams.
+```mermaid
+```
+  - [Mermaid's Documentation](https://mermaid-js.github.io/) 
 
 ## Common Markdown Language Railroad Diagrams
 | Markdown | Railroad Diagram |

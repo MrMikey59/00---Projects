@@ -25,10 +25,19 @@
 - [Rainbow Highlighter](https://marketplace.visualstudio.com/items?itemName=cobaltblu27.rainbow-highlighter)  
 
 #### EMMET
+[Emmet](https://www.emmet.io/) - a set of plug-ins for text editors that allow for high-speed coding and editing in HTML, XML, XSL, and other structured code formats via content assist.
 - [CSS Abbreviations](https://docs.emmet.io/css-abbreviations/)
+- [Emmet Docs Cheatsheet](https://docs.emmet.io/cheat-sheet/) 
+- [Emmet HTML Cheatsheet](https://github.com/jamesqquick/emmet-html-snippets-cheatsheet)
 - [VS Code Guide (CSS, HTML)](https://code.visualstudio.com/docs/editor/emmet)
 
-[Emmet](https://www.emmet.io/) - a set of plug-ins for text editors that allow for high-speed coding and editing in HTML, XML, XSL, and other structured code formats via content assist.
+## Folders used by VS Code
+| Folder | Location |  
+| --- | --- |  
+|Global Installer|`C:\Program Files\Microsoft` VS Code (64-bit systems) <BR> `C:\Program Files(x86)\Microsoft VS Code` (32-bit systems) |  
+|Repositories|User Selectable|  
+|User-Level Installer|`C:\Users\%USERNAME\AppData\Local\Programs\Microsoft VS Code`|  
+
 
 ## Keyboard Shortcuts
 - [Keyboard shortcuts (Windows)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)

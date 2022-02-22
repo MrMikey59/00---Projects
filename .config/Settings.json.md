@@ -12,13 +12,15 @@
 {
   // Switched off, because you need to learn JavaScript
   // "javascript.format.enable": false,
-  "css.validate": false,
+  "css.validate": { *false* | true },  
+  "editor.bracketPairColorization.enabled": { *false* | true },  
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+    "source.fixAll.eslint": { *false* | true }
+  }  
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": { *false* | true },
   "editor.formatOnSave":  { *false* | true },
+  "editor.guides.bracketPairs":"active",
   "editor.insertSpaces":  { *false* | true },
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
