@@ -11,7 +11,7 @@ This way you can run prettier --write . to make sure that everything is formatte
 
 A properly formatted comment will exclude the next node in the abstract syntax tree from formatting. 
 
-A list of propely formaatted comments:
+A list of propely formatted comments:
 | Language | Comment |  
 | --- | --- |  
 | CSS  | `/* prettier-ignore */` |  
@@ -32,13 +32,15 @@ A list of propely formaatted comments:
 ```
 **/*.min.js
 **/*.min.css
-
+.cache
+package.json
+package-lock.json
+public
 .idea/
 node_modules/
 dist/
 build/
 ```
-
 
 ## Extreme Example
 ```

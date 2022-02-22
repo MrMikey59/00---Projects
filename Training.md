@@ -15,6 +15,10 @@ WHY? Because these all make great test questions!
 **[Amazon](https://www.amazon.com)**  
   - [Amazon Smile](https://smile.amazon.com)  
 
+**[College Compendium](https://collegecompendium.org/)**  
+
+**[Free Code Camp](https://www.freecodecamp.org/)**
+
 **[Goodwill Community Foundation (GCF)](http://www.gcflearnfree.org/)**  
 - [Microsoft Access 2010](http://www.gcflearnfree.org/access2010/)  
 
@@ -74,6 +78,8 @@ Check these out:
 - [Detailed Bootstrap4](https://www.youtube.com/watch?v=Uhy3gtZoeOM)
 - [Bootstrap 4 Crash Course](https://www.youtube.com/watch?v=hnCmSXCZEpU)
 - [Bootstrap4 Complete Website](https://www.youtube.com/watch?v=-UEMWJjBXww&t=88s  https://youtu.be/frRyAlz82Ok)
+- [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) (~1 hr)
+- [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE) (~1 hr)
 - [Javascript](https://www.youtube.com/watch?v=PkZNo7MFNFg)
 - [ES6](https://www.youtube.com/watch?v=nZ1DMMsyVyI)
 - [Typescript](https://www.youtube.com/watch?v=BwuLxPH8IDs)
@@ -198,6 +204,7 @@ In this final stage, you have become used to your changes and have kept them up 
 ## [Microsoft Learn](https://learn.microsoft.com/#!/) (MSL)  
 MSL a free, interactive, hands-on training platform that helps people develop in-demand technical skills related to widely used Microsoft products and services including Azure, Microsoft 365, Power Platform, Microsoft Dynamics, and more.  
 Microsoft Learn combines short step-by-step trainings, browser-based interactive coding and scripting environments, and task-based achievements to help learners advance their technical skills and prepare for Microsoft Certifications. With millions of registered learners, Microsoft Learn offers over 225 learning paths, more than 1,000 modules, and is localized in dozens of languages. Microsoft Learn is great for individual users to advance their skills, as well as organizations that want to create curated employee training paths.  
+To know what is available online you can see the list of classes online by going to URL < https://go.microsoft.com/fwlink/?linkid=836780 >  
 
 ## Your Mind, Your Brain
 ####  Three Functions of the Mind

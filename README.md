@@ -16,3 +16,15 @@ Comments & help are always appreciated.
 | [SourceForge](http://sourceforge.net/) |  |  
 | [Stack Overflow](www.stackoverflow.com) | |  
 
+## Project Directory Example
+```text
+.
+├── /css
+├── /files
+├── /images
+├── /include
+├── /script
+├── index.html
+└── README.md
+```
+

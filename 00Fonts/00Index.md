@@ -1,6 +1,10 @@
 # Fonts
 
 [Font Awesome Free 5.0.8 ](https://fontawesome.com)
+[Google](https://www.google.com) 
+- [Fonts](https://fonts.google.com/) 
+
+⭐🚀🧐🎓💫🧜‍♀️🤔👋✨📃
 
 ### Load Fonts with Script
 ```Javascript
