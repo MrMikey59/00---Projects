@@ -3,6 +3,7 @@
 - https://github.com/FourMInfo/DevOps-Space/wiki/VSCode
 - https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/ide/writing-code-in-the-code-and-text-editor.md 
 - [VS Code Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)  
+[VSCode Magazine](https://visualstudiomagazine.com/ )
 
 ### Training Available
 [VSCode Crash Course (James Q Quick)](https://www.youtube.com/watch?v=WPqXP_kLzpo) 
@@ -34,10 +35,10 @@
 ## Folders used by VS Code
 | Folder | Location |  
 | --- | --- |  
-|Global Installer|`C:\Program Files\Microsoft` VS Code (64-bit systems) <BR> `C:\Program Files(x86)\Microsoft VS Code` (32-bit systems) |  
-|Repositories|User Selectable|  
-|User-Level Installer|`C:\Users\%USERNAME\AppData\Local\Programs\Microsoft VS Code`|  
-
+| Extensions (Windows) | `%USERPROFILE%\.vscode\extensions\` |  
+| Global Installer |`C:\Program Files\Microsoft` VS Code (64-bit systems) <BR> `C:\Program Files(x86)\Microsoft VS Code` (32-bit systems) |  
+| Repositories |User Selectable|  
+| User-Level Installer |`C:\Users\%USERNAME\AppData\Local\Programs\Microsoft VS Code`|  
 
 ## Keyboard Shortcuts
 - [Keyboard shortcuts (Windows)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
@@ -88,6 +89,12 @@
 | -- | -- |  
 | Access VS Code Settings | Open Command Palette; Type "Settings" and Select "Open User Settings" |  
 | Enable the Soft Wrapping | "View" -> "Toggle Soft Wrap" |  
+
+
+### Open DOCX in VS Code  
+https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office  
+https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack (Markdown)  
+https://marketplace.visualstudio.com/items?itemName=bsivanov.OpenXMLPackageEditorforVisualStudio (OpenXML – docx, xlsx, pptx, …)  
 
 ## Themes
 - [VS Code Themes](https://vscodethemes.com/)  
