@@ -5,7 +5,12 @@
 [Google](https://www.google.com) 
 - [Fonts](https://fonts.google.com/) 
 
-⭐🚀🧐🎓💫🧜‍♀️🤔👋✨📃
+⭐🚀🧐🎓💫🧜‍♀️🤔👋✨🚗🥾 📺📚💬
+
+### Load Fonts with a CDN Link 
+```css
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+```
 
 ### Load Fonts with Script
 ```Javascript
