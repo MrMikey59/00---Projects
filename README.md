@@ -12,7 +12,8 @@ Comments & help are always appreciated.
 | [Code Academy](www.codecademy.com) |  |  
 | [Code Format Fix](https://www.prettifyjs.net/) |  |  
 | [Code Wall](https://coderwall.com/) |  |  
-| [Free Code Camp](https://www.freecodecamp.org) |  |  
+| [Free Code Camp](https://www.freecodecamp.org) | [on GitHub](https://github.com/search?q%3Dfreecodecamp) | 
+| [Jim Shaped Coding](https://github.com/jimdevops19/codesnippets) |  | 
 | [ShowCase](https://www.showwcase.com/) |  |  
 | [SourceTree](https://www.sourcetreeapp.com/) |  |  
 | [SourceForge](http://sourceforge.net/) |  |  
