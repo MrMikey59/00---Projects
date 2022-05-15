@@ -145,6 +145,20 @@ The rendered output looks like this:
   
 You can display a pipe (**\|**) character in a table by using its HTML character code ( **&amp;#124;**).  
 
+
+## Create a table of file information.
+```
+---
+layout: lecture
+title: "Virtual Machines and Containers"
+presenter: Anish, Jon
+video:
+  aspect: 56.25
+  id: LJ9ki5zq6Ik
+---
+```
+*Note*: This must start on the first line of the file for it to work.
+
 ## HTML
 - Html can be embedded within md.
 
@@ -152,9 +166,11 @@ You can display a pipe (**\|**) character in a table by using its HTML character
 ---
 
 ## Videos
+```html
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```
 
 ## Task lists
 - Converted to md as: 
