@@ -24,6 +24,16 @@
     - https://marksweb.site/hta/
     - [XMLStarlet](https://sourceforge.net/projects/xmlstar/files/xmlstarlet/) is a command line XML toolkit which can be used to transform, query, validate, and edit XML documents and files using simple set of shell commands in similar way it is done for plain text files using grep/sed/awk/ tr/diff/patch.
     - [SheetJS Community Edition](https://docs.sheetjs.com/) - xlsx.full.min.js
+    - https://www.vmware.com/
+    - https://crates.io/
 
 8. Create an HTA interface to an access database? 
+
+Test Browser Web Page Speed: http://yslow.org/
+
+Create an HTA interface to an access database? 
+
+Can CSS & HTML use JS Constants?  This would be great for setting colors as constants to make uniform color scheme with a project.
+
+What is the prupose of the robots.txt file?
 

@@ -6,6 +6,14 @@ In this lecture we are going to cover useful techniques for dealing with buggy a
 
 # Debugging
 
+Debuggers let you interact with the execution of a program, letting you do
+things like:
+
+- halt execution of the program when it reaches a certain line
+- single-step through the program
+- inspect values of variables
+- many more advanced features
+
 ## Printf debugging and Logging
 
 "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements" — Brian Kernighan, _Unix for Beginners_.
@@ -47,6 +55,30 @@ for R in $(seq 0 20 255); do
     done
 done
 ```
+
+## GDB/LLDB
+
+- [GDB](https://www.gnu.org/software/gdb/)
+- [LLDB](https://lldb.llvm.org/) - Supports many C-like languages.
+
+Let's look at [example.c](/2019/files/example.c). Compile with debug flags:
+`gcc -g -o example example.c`.
+
+Open GDB:
+
+`gdb example`
+
+Some commands:
+
+- `run`
+- `b {name of function}` - set a breakpoint
+- `b {file}:{line}` - set a breakpoint
+- `c` - continue
+- `step` / `next` / `finish` - step in / step over / step out
+- `p {variable}` - print value of variable
+- `watch {expression}` - set a watchpoint that triggers when the value of the expression changes
+- `rwatch {expression}` - set a watchpoint that triggers when the value is read
+- `layout`
 
 ## Third party logs
 
