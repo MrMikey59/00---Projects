@@ -5,6 +5,8 @@
 [Google](https://www.google.com) 
 - [Fonts](https://fonts.google.com/) 
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
 ⭐🚀🧐🎓💫🧜‍♀️🤔👋✨🚗🥾 📺📚💬
 
 ### Load Fonts with a CDN Link 
