@@ -1,10 +1,12 @@
 ﻿# Markdown
+
  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
  ### Guides
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/) - GitHub's Special Markdown Guide.
 - [John Gruber’s Markdown documentation](https://daringfireball.net/projects/markdown/) - The original guide written by the creator of Markdown. 
 - [Markdown Tutorial](https://www.markdowntutorial.com/) - An open source website that allows you to try Markdown in your web browser.
 - [Markdown Guide](https://www.markdownguide.org/) 
+- [Markdown Help](https://commonmark.org/help/).
 
 ## Inspirations 
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
@@ -165,11 +167,14 @@ video:
 ## Horizontal rule
 ---
 
-## Videos
-```html
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+## Table of Contents
+Use this to target the header within the same page:
+```md
+- [GitHub](#github)
+```
+The Header:
+```md
+## GitHub
 ```
 
 ## Task lists
@@ -225,4 +230,11 @@ repos:
 ```
 
 This will run `doctoc` against markdown files when committing to ensure the TOC stays up-to-date.
+
+## Videos
+```html
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```
 
