@@ -63,12 +63,13 @@ XL - MS Office Excel
 | rotate(999deg) |  |  |  |  | cs |   
 | scale() |  |  |  |  | cs |    
 | select() | Emulates selecting text in a field (password, text, text area) | Y |  |  |  |  
+| sepia() |  |  |  |  | Y |  
 | SQRT() - Calculates square root of the value | | |  | XL |  |  
 | STDDEV()| | |  | XL |  |  
 | STDDEVP()| | |  | XL |  |  
 | submit() | Emulates a click on the Submit button of a form | Y |  |  |  |  
 | SUM() - Sum of numeric values within range| | |  | XL |  |  
-| translate() |  |  |  |  | cs |    
+| translate() <BR> translateX() <BR> translateY() |  |  |  |  | CS |  
 | Tuple(\<List>) | Convert a list to a tuple |  | Y |  |  |  
 | Type(\<VarName>) | Returns type of the tested variable |  | Y |  | 
 | PMT()|Payment calculation <br> PMT(interest_rate,term-in-months,loan_amount) | |  |XL |  |  
