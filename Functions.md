@@ -20,6 +20,7 @@ XL - MS Office Excel
 | contrast() |  |  |  |  | Y |    
 | COUNT()| | |   | XL |  |  
 | COUNTNUMS()| | |  | XL |  |  
+| cubic-bezier() |  |  |  |  | Y | 
 | DATE() - returns day of week| | |  | XL |  |  
 | DATEDIF() | to calculate elapsed calendar time <BR> `=DATEDIF(<StartDate,<EndDate>,<CalendarUnitOption)` <BR> **Years**. In the expression `DATEDIF(A2,B2,"Y")`, the "Y" parameter tells the function to return the number of whole years between the two dates. <br> **Months**. The expression `DATEDIF(A2,B2,"YM")` returns the number of months between the two dates, without regard to the years. <BR> **Days**. Finally, the expression `DATEDIF(A2,B2,"MD")` returns the number of days in the interval without regard to month and year. | |  | XL |  |  
 | dir() | returns the list of the names defined in a module |  | Y |  |  |  
@@ -62,6 +63,8 @@ XL - MS Office Excel
 | rgba() | Determines color based on R - G - B and A (Intensity) channel settings |  | Y |  | Y |  
 | rotate(999deg) |  |  |  |  | cs |   
 | scale() |  |  |  |  | cs |    
+| scaleX() |  |  |  |  | cs |    
+| scaleY() |  |  |  |  | cs |    
 | select() | Emulates selecting text in a field (password, text, text area) | Y |  |  |  |  
 | sepia() |  |  |  |  | Y |  
 | SQRT() - Calculates square root of the value | | |  | XL |  |  
@@ -74,7 +77,7 @@ XL - MS Office Excel
 | Type(\<VarName>) | Returns type of the tested variable |  | Y |  | 
 | PMT()|Payment calculation <br> PMT(interest_rate,term-in-months,loan_amount) | |  |XL |  |  
 | url() | URL Load |  |  |  | Y |    
-| VAR()| | |  | XL | Y |  
+| VAR() | | |  | XL | cs |  
 | VLOOKUP() - Value designated in the values table | Vertical Lookup | |  | XL |  |  
 
 ### AND Statement
